@@ -1,4 +1,5 @@
 import TourSlider from './tour-slider';
+import TechnologySlider from './technology-slider';
 import Image from 'next/image';
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
           <video className="recap-video" controls playsInline preload="none" poster="/images/future-lab-recap.jpg" aria-label="Future Lab and Accelerator gathering recap"><source src="https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/videos/accelerator-and-future-lab.mp4" type="video/mp4" />Watch the Future Lab recap at The Futurist Network.</video>
           <a className="text-link" href="https://thefuturist.network/futurelab#accelerator-future-lab-film" target="_blank" rel="noopener noreferrer">More from Future Lab <span aria-hidden="true">↗</span></a>
         </section>
+        <TechnologySlider />
         <footer id="contact" className="section wrap contact">
           <p className="eyebrow">Keep in touch</p><h2><a href="mailto:kahlilcalavas@gmail.com">Say hello. <span aria-hidden="true">↗</span></a></h2>
           <div className="footer-bottom"><p>© 2026 Kahlil Calavas</p><nav aria-label="Social links"><a href="https://www.linkedin.com/in/kahlil-c-8839b5192/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.facebook.com/kahlil.calavas" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://github.com/pdxor" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav><a className="back-top" href="#main">Back to the top ↑</a></div>

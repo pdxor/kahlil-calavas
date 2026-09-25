@@ -23,3 +23,9 @@ Public source profiles:
 The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliable local hosting. The Netlify site is intended for `https://kahlilcalavas.netlify.app`.
 
 The Future Lens and Future Lab sections use the official project pages. The October 3, 2026 Earth Tech gathering at Forest City Farms (3–11 PM Eastern) and event link were verified at https://thefuturist.network/futurelab on September 24, 2026. The recap uses the same public Future Lab / Accelerator film featured on The Futurist Network homepage and Future Lab page; its poster is hosted locally. The Future Lens illustration is an actual world-viewer capture from its public homepage.
+
+## Technology logos
+
+The technology carousel before the contact footer uses `app/technologies.json` and locally hosted assets in `public/technologies`. Its collection comes from the skills and experience in the September 3, 2026 résumé, plus the direct web/3D stack in Future Lens and this portfolio. Unity's AR Foundation and XR Interaction Toolkit, Snap's Spectacles/Lens Studio, and other product families are grouped under their platform marks. The list represents tools used across Kahlil's work, not certifications or endorsements.
+
+`docs/technology-logo-sources.json` records the source of each logo. Marks come from Simple Icons, SVGL, and the respective products' websites or published assets; older Simple Icons marks are retained for tools named in the résumé. Logos keep their original geometry and are presented in monochrome with CSS. Simple Icons' CC0 license and SVGL's MIT license are included beside the assets; brand trademarks remain with their owners. No third-party image requests are needed to view the slider. Swipe, drag, keyboard arrows, or the previous/next buttons move through the collection without automatic scrolling.

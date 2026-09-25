@@ -1,0 +1,560 @@
+[
+  {
+    "id": "unity",
+    "name": "Unity / AR Foundation / XR Toolkit",
+    "logo": "/technologies/unity.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "unrealengine",
+    "name": "Unreal Engine",
+    "logo": "/technologies/unrealengine.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "logo": "/technologies/blender.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "autodeskmaya",
+    "name": "Maya",
+    "logo": "/technologies/autodeskmaya.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "cinema4d",
+    "name": "Cinema 4D",
+    "logo": "/technologies/cinema4d.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "lightwave",
+    "name": "LightWave",
+    "logo": "/technologies/lightwave.png",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "sketchup",
+    "name": "SketchUp",
+    "logo": "/technologies/sketchup.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "meta",
+    "name": "Meta Quest",
+    "logo": "/technologies/meta.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "snapchat",
+    "name": "Snap Spectacles / Lens Studio",
+    "logo": "/technologies/snapchat.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "magicleap",
+    "name": "Magic Leap",
+    "logo": "/technologies/magicleap.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "logo": "/technologies/photon.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "arcore",
+    "name": "ARCore",
+    "logo": "/technologies/arcore.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "arkit",
+    "name": "ARKit",
+    "logo": "/technologies/arkit.png",
+    "treatment": "tonal"
+  },
+  {
+    "id": "matterport",
+    "name": "Matterport",
+    "logo": "/technologies/matterport.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "polycam",
+    "name": "Polycam",
+    "logo": "/technologies/polycam.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "realitycapture",
+    "name": "RealityCapture / RealityScan",
+    "logo": "/technologies/realitycapture.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "dronedeploy",
+    "name": "DroneDeploy",
+    "logo": "/technologies/dronedeploy.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "krpano",
+    "name": "Krpano",
+    "logo": "/technologies/krpano.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "kolor",
+    "name": "KOLOR",
+    "logo": "/technologies/kolor.gif",
+    "treatment": "inverted"
+  },
+  {
+    "id": "readyplayerme",
+    "name": "Ready Player Me",
+    "logo": "/technologies/readyplayerme.png",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "uma",
+    "name": "UMA",
+    "logo": "/technologies/uma.png",
+    "treatment": "tonal"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "logo": "/technologies/react.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "metahumans",
+    "name": "MetaHumans",
+    "logo": "/technologies/unrealengine.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "nextdotjs",
+    "name": "Next.js",
+    "logo": "/technologies/nextdotjs.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "logo": "/technologies/typescript.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "logo": "/technologies/javascript.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "logo": "/technologies/csharp.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "logo": "/technologies/php.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "logo": "/technologies/html5.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "logo": "/technologies/css.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress",
+    "logo": "/technologies/wordpress.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "drupal",
+    "name": "Drupal",
+    "logo": "/technologies/drupal.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "joomla",
+    "name": "Joomla",
+    "logo": "/technologies/joomla.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "woocommerce",
+    "name": "WooCommerce",
+    "logo": "/technologies/woocommerce.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "logo": "/technologies/shopify.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "learndash",
+    "name": "LearnDash",
+    "logo": "/technologies/learndash.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "logo": "/technologies/bootstrap.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "acf",
+    "name": "Advanced Custom Fields",
+    "logo": "/technologies/acf.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "twig",
+    "name": "Twig",
+    "logo": "/technologies/twig.png",
+    "treatment": "inverted"
+  },
+  {
+    "id": "timber",
+    "name": "Timber",
+    "logo": "/technologies/timber.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "roots",
+    "name": "Roots",
+    "logo": "/technologies/roots.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "genesis",
+    "name": "Genesis",
+    "logo": "/technologies/genesis.png",
+    "treatment": "tonal"
+  },
+  {
+    "id": "divi",
+    "name": "Divi",
+    "logo": "/technologies/divi.png",
+    "treatment": "tonal"
+  },
+  {
+    "id": "nodedotjs",
+    "name": "Node.js",
+    "logo": "/technologies/nodedotjs.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "composer",
+    "name": "Composer",
+    "logo": "/technologies/composer.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "grunt",
+    "name": "Grunt",
+    "logo": "/technologies/grunt.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "gulp",
+    "name": "Gulp",
+    "logo": "/technologies/gulp.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "threedotjs",
+    "name": "Three.js",
+    "logo": "/technologies/threedotjs.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "logo": "/technologies/tailwindcss.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "logo": "/technologies/vite.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "logo": "/technologies/figma.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "logo": "/technologies/sketch.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "adobexd",
+    "name": "Adobe XD",
+    "logo": "/technologies/adobexd.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "adobephotoshop",
+    "name": "Adobe Photoshop",
+    "logo": "/technologies/adobephotoshop.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "adobeillustrator",
+    "name": "Adobe Illustrator",
+    "logo": "/technologies/adobeillustrator.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "adobeindesign",
+    "name": "Adobe InDesign",
+    "logo": "/technologies/adobeindesign.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "adobepremierepro",
+    "name": "Adobe Premiere Pro",
+    "logo": "/technologies/adobepremierepro.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "adobeaftereffects",
+    "name": "Adobe After Effects",
+    "logo": "/technologies/adobeaftereffects.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "logo": "/technologies/supabase.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "logo": "/technologies/postgresql.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "logo": "/technologies/firebase.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "amazons3",
+    "name": "Amazon S3",
+    "logo": "/technologies/amazons3.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "logo": "/technologies/openai.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "logo": "/technologies/docker.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "lando",
+    "name": "Lando",
+    "logo": "/technologies/lando.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "drush",
+    "name": "Drush",
+    "logo": "/technologies/drush.png",
+    "treatment": "tonal"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "logo": "/technologies/git.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "logo": "/technologies/github.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "bitbucket",
+    "name": "Bitbucket",
+    "logo": "/technologies/bitbucket.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "plasticscm",
+    "name": "Unity Version Control / Plastic SCM",
+    "logo": "/technologies/unity.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "mapbox",
+    "name": "Mapbox",
+    "logo": "/technologies/mapbox.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "here",
+    "name": "HERE",
+    "logo": "/technologies/here.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "foursquare",
+    "name": "Foursquare",
+    "logo": "/technologies/foursquare.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "leaflet",
+    "name": "Leaflet",
+    "logo": "/technologies/leaflet.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "googlemaps",
+    "name": "Google Maps",
+    "logo": "/technologies/googlemaps.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "maplibre",
+    "name": "MapLibre",
+    "logo": "/technologies/maplibre.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "logo": "/technologies/postman.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "wpengine",
+    "name": "WP Engine",
+    "logo": "/technologies/wpengine.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "pantheon",
+    "name": "Pantheon",
+    "logo": "/technologies/pantheon.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "logo": "/technologies/vercel.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "logo": "/technologies/netlify.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary",
+    "logo": "/technologies/cloudinary.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "logo": "/technologies/zapier.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "twilio",
+    "name": "Twilio",
+    "logo": "/technologies/twilio.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "googleanalytics",
+    "name": "Google Analytics",
+    "logo": "/technologies/googleanalytics.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "yoast",
+    "name": "Yoast",
+    "logo": "/technologies/yoast.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "logo": "/technologies/trello.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "logo": "/technologies/jira.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "logo": "/technologies/slack.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "microsoftteams",
+    "name": "Microsoft Teams",
+    "logo": "/technologies/microsoftteams.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "microsoftoffice",
+    "name": "Microsoft Office",
+    "logo": "/technologies/microsoftoffice.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "microsoftexcel",
+    "name": "Microsoft Excel",
+    "logo": "/technologies/microsoftexcel.svg",
+    "treatment": "silhouette"
+  },
+  {
+    "id": "googleworkspace",
+    "name": "Google Workspace",
+    "logo": "/technologies/googleworkspace.svg",
+    "treatment": "silhouette"
+  }
+]

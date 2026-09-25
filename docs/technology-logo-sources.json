@@ -1,0 +1,733 @@
+{
+  "checkedAt": "2026-09-25",
+  "evidence": [
+    "Latest résumé (modified 2026-09-03), skills and technology experience",
+    "Future Lens direct dependencies and portfolio build configuration"
+  ],
+  "logos": [
+    {
+      "id": "unity",
+      "name": "Unity",
+      "logo": "/technologies/unity.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/unity.svg",
+      "brandSource": "https://brand.unity.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "unrealengine",
+      "name": "Unreal Engine",
+      "logo": "/technologies/unrealengine.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/unrealengine.svg",
+      "brandSource": "https://www.unrealengine.com/en-US/branding",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "logo": "/technologies/blender.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/blender.svg",
+      "brandSource": "https://www.blender.org/about/logo",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "autodeskmaya",
+      "name": "Autodesk Maya",
+      "logo": "/technologies/autodeskmaya.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/autodeskmaya.svg",
+      "brandSource": "https://area.autodesk.com/learn/courses/maya-intro",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "cinema4d",
+      "name": "Cinema 4D",
+      "logo": "/technologies/cinema4d.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cinema4d.svg",
+      "brandSource": "https://www.maxon.net/en/about-maxon/branding",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "lightwave",
+      "name": "LightWave",
+      "logo": "/technologies/lightwave.png",
+      "source": "https://www.lightwave3d.com/media/images/lightwave_3d_logo_Fda0Wve.max-250x65.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "sketchup",
+      "name": "SketchUp",
+      "logo": "/technologies/sketchup.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/sketchup.svg",
+      "brandSource": "https://www.sketchup.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "logo": "/technologies/meta.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/meta.svg",
+      "brandSource": "https://www.meta.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "logo": "/technologies/snapchat.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/snapchat.svg",
+      "brandSource": "https://www.snapchat.com/brand-guidelines",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "magicleap",
+      "name": "Magic Leap",
+      "logo": "/technologies/magicleap.svg",
+      "source": "https://www.magicleap.com/",
+      "provider": "Brand website"
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "logo": "/technologies/photon.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/photon.svg",
+      "brandSource": "https://www.photonengine.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "arcore",
+      "name": "ARCore",
+      "logo": "/technologies/arcore.svg",
+      "source": "https://developers.google.com/static/ar/images/logo.svg",
+      "provider": "Brand website"
+    },
+    {
+      "id": "arkit",
+      "name": "ARKit",
+      "logo": "/technologies/arkit.png",
+      "source": "https://developer.apple.com/assets/elements/icons/arkit/arkit-96x96_2x.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "matterport",
+      "name": "Matterport",
+      "logo": "/technologies/matterport.svg",
+      "source": "https://images.ctfassets.net/icnj41gkyohw/2QONNQ99GFiZ80GxeXU1fS/fb0c5a85d1d72a0a234c9c5d8d95632b/dark-mode-logo.svg",
+      "provider": "Brand website"
+    },
+    {
+      "id": "polycam",
+      "name": "Polycam",
+      "logo": "/technologies/polycam.svg",
+      "source": "https://poly.cam/",
+      "provider": "Brand website"
+    },
+    {
+      "id": "realitycapture",
+      "name": "RealityCapture / RealityScan",
+      "logo": "/technologies/realitycapture.svg",
+      "source": "https://www.realityscan.com/cosmos/static/favicons/favicon.svg",
+      "provider": "Brand website"
+    },
+    {
+      "id": "dronedeploy",
+      "name": "DroneDeploy",
+      "logo": "/technologies/dronedeploy.svg",
+      "source": "https://www.dronedeploy.com/",
+      "provider": "Brand website"
+    },
+    {
+      "id": "krpano",
+      "name": "Krpano",
+      "logo": "/technologies/krpano.svg",
+      "source": "https://krpano.com/design/design.css?124",
+      "provider": "Brand website"
+    },
+    {
+      "id": "kolor",
+      "name": "KOLOR",
+      "logo": "/technologies/kolor.gif",
+      "source": "https://www.guide-photo-panoramique.com/images/tests/Autopano-giga/logo-autopano-giga.gif",
+      "brandSource": "https://www.guide-photo-panoramique.com/tutoriel-autopano-interface-preferences.html",
+      "provider": "Published KOLOR Autopano mark"
+    },
+    {
+      "id": "readyplayerme",
+      "name": "Ready Player Me",
+      "logo": "/technologies/readyplayerme.png",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ready_Player_Me_logo.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "uma",
+      "name": "UMA",
+      "logo": "/technologies/uma.png",
+      "source": "https://raw.githubusercontent.com/umasteeringgroup/UMA/master/logo.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "logo": "/technologies/react.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg",
+      "brandSource": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "metahumans",
+      "name": "MetaHumans",
+      "logo": "/technologies/unrealengine.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/unrealengine.svg",
+      "brandSource": "https://www.unrealengine.com/en-US/branding",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "nextdotjs",
+      "name": "Next.js",
+      "logo": "/technologies/nextdotjs.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nextdotjs.svg",
+      "brandSource": "https://vercel.com/design/brands#next-js",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "logo": "/technologies/typescript.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typescript.svg",
+      "brandSource": "https://www.typescriptlang.org/branding",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "logo": "/technologies/javascript.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/javascript.svg",
+      "brandSource": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "logo": "/technologies/csharp.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/csharp.svg",
+      "brandSource": "https://learn.microsoft.com/training/paths/get-started-c-sharp-part-1",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "php",
+      "name": "PHP",
+      "logo": "/technologies/php.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/php.svg",
+      "brandSource": "https://php.net/download-logos.php",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "html5",
+      "name": "HTML5",
+      "logo": "/technologies/html5.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/html5.svg",
+      "brandSource": "https://www.w3.org/html/logo/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "logo": "/technologies/css.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/css.svg",
+      "brandSource": "https://github.com/CSS-Next/logo.css/blob/bacc20878227204b283c68a6b935f8279e06b0cd/css.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress",
+      "logo": "/technologies/wordpress.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wordpress.svg",
+      "brandSource": "https://wordpress.org/about/logos",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "drupal",
+      "name": "Drupal",
+      "logo": "/technologies/drupal.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/drupal.svg",
+      "brandSource": "https://www.drupal.org/about/media-kit/logos",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "joomla",
+      "name": "Joomla",
+      "logo": "/technologies/joomla.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/joomla.svg",
+      "brandSource": "https://docs.joomla.org/Joomla:Brand_Identity_Elements/Official_Logo",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce",
+      "logo": "/technologies/woocommerce.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/woocommerce.svg",
+      "brandSource": "https://woocommerce.com/style-guide",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "logo": "/technologies/shopify.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/shopify.svg",
+      "brandSource": "https://www.shopify.com/brand-assets",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "learndash",
+      "name": "LearnDash",
+      "logo": "/technologies/learndash.svg",
+      "source": "https://res.cloudinary.com/lwcom/images/f_svg,q_auto/fl_sanitize/v1784811882/prod/logo-learndash/logo-learndash.svg?_i=AA",
+      "provider": "Brand website"
+    },
+    {
+      "id": "bootstrap",
+      "name": "Bootstrap",
+      "logo": "/technologies/bootstrap.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/bootstrap.svg",
+      "brandSource": "https://getbootstrap.com/docs/5.3/about/brand",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "acf",
+      "name": "Advanced Custom Fields",
+      "logo": "/technologies/acf.svg",
+      "source": "https://www.advancedcustomfields.com/",
+      "provider": "Brand website"
+    },
+    {
+      "id": "twig",
+      "name": "Twig",
+      "logo": "/technologies/twig.png",
+      "source": "https://twig.symfony.com/images/twig-logo.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "timber",
+      "name": "Timber",
+      "logo": "/technologies/timber.svg",
+      "source": "https://timber.github.io/docs/v2/",
+      "provider": "Brand website"
+    },
+    {
+      "id": "roots",
+      "name": "Roots",
+      "logo": "/technologies/roots.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/roots.svg",
+      "brandSource": "https://roots.io/about/brand/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "genesis",
+      "name": "Genesis",
+      "logo": "/technologies/genesis.png",
+      "source": "https://www.studiopress.com/wp-content/themes/studiopress_2017_rt/images/GP-logo-icon@2x.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "divi",
+      "name": "Divi",
+      "logo": "/technologies/divi.png",
+      "source": "https://www.elegantthemes.com/images/favicon/favicon-divi-192.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "nodedotjs",
+      "name": "Node.js",
+      "logo": "/technologies/nodedotjs.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nodedotjs.svg",
+      "brandSource": "https://nodejs.org/en/about/branding",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "composer",
+      "name": "Composer",
+      "logo": "/technologies/composer.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/composer.svg",
+      "brandSource": "https://getcomposer.org",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "grunt",
+      "name": "Grunt",
+      "logo": "/technologies/grunt.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/grunt.svg",
+      "brandSource": "https://github.com/gruntjs/gruntjs.com/blob/70f43898d9ce8e6cc862ad72bf8a7aee5ca199a9/src/media/grunt-logo-no-wordmark.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "gulp",
+      "name": "Gulp",
+      "logo": "/technologies/gulp.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/gulp.svg",
+      "brandSource": "https://github.com/gulpjs/artwork/blob/4e14158817ac88e9a5c02b3b307e6f630fe222fb/gulp-white-text.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "threedotjs",
+      "name": "Three.js",
+      "logo": "/technologies/threedotjs.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/threedotjs.svg",
+      "brandSource": "https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "logo": "/technologies/tailwindcss.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tailwindcss.svg",
+      "brandSource": "https://tailwindcss.com/brand",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "logo": "/technologies/vite.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vite.svg",
+      "brandSource": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "logo": "/technologies/figma.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/figma.svg",
+      "brandSource": "https://www.figma.com/using-the-figma-brand/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "logo": "/technologies/sketch.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/sketch.svg",
+      "brandSource": "https://www.sketch.com/about-us/#press",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "adobexd",
+      "name": "Adobe XD",
+      "logo": "/technologies/adobexd.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobexd.svg",
+      "brandSource": "https://helpx.adobe.com/support/xd.html",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "adobephotoshop",
+      "name": "Adobe Photoshop",
+      "logo": "/technologies/adobephotoshop.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobephotoshop.svg",
+      "brandSource": "https://www.adobe.com/creativecloud.html",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "adobeillustrator",
+      "name": "Adobe Illustrator",
+      "logo": "/technologies/adobeillustrator.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobeillustrator.svg",
+      "brandSource": "https://www.adobe.com/creativecloud.html",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "adobeindesign",
+      "name": "Adobe InDesign",
+      "logo": "/technologies/adobeindesign.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobeindesign.svg",
+      "brandSource": "https://www.adobe.com/creativecloud.html",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "adobepremierepro",
+      "name": "Adobe Premiere Pro",
+      "logo": "/technologies/adobepremierepro.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobepremierepro.svg",
+      "brandSource": "https://www.adobe.com/creativecloud.html",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "adobeaftereffects",
+      "name": "Adobe After Effects",
+      "logo": "/technologies/adobeaftereffects.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobeaftereffects.svg",
+      "brandSource": "https://www.adobe.com/creativecloud.html",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "logo": "/technologies/supabase.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/supabase.svg",
+      "brandSource": "https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "logo": "/technologies/postgresql.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/postgresql.svg",
+      "brandSource": "https://wiki.postgresql.org/wiki/Logo",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "logo": "/technologies/firebase.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/firebase.svg",
+      "brandSource": "https://firebase.google.com/brand-guidelines",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "logo": "/technologies/amazons3.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/amazons3.svg",
+      "brandSource": "https://aws.amazon.com/architecture/icons",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "logo": "/technologies/openai.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/openai.svg",
+      "brandSource": "https://openai.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "logo": "/technologies/docker.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/docker.svg",
+      "brandSource": "https://www.docker.com/company/newsroom/media-resources",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "lando",
+      "name": "Lando",
+      "logo": "/technologies/lando.svg",
+      "source": "https://www.lando.dev/safari-pinned-tab.svg",
+      "provider": "Brand website"
+    },
+    {
+      "id": "drush",
+      "name": "Drush",
+      "logo": "/technologies/drush.png",
+      "source": "https://www.drush.org/13.5.1/drush_logo-black.png",
+      "provider": "Brand website"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "logo": "/technologies/git.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/git.svg",
+      "brandSource": "https://git-scm.com/community/logos",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "logo": "/technologies/github.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg",
+      "brandSource": "https://github.com/logos",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "logo": "/technologies/bitbucket.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/bitbucket.svg",
+      "brandSource": "https://atlassian.design/resources/logo-library",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "plasticscm",
+      "name": "Plastic SCM / Unity Version Control",
+      "logo": "/technologies/unity.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/unity.svg",
+      "brandSource": "https://brand.unity.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox",
+      "logo": "/technologies/mapbox.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/mapbox.svg",
+      "brandSource": "https://www.mapbox.com/about/press/brand-guidelines",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "here",
+      "name": "HERE",
+      "logo": "/technologies/here.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/here.svg",
+      "brandSource": "https://www.here.com/company/media-assets",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "foursquare",
+      "name": "Foursquare",
+      "logo": "/technologies/foursquare.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/foursquare.svg",
+      "brandSource": "https://foursquare.com/brand/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "leaflet",
+      "name": "Leaflet",
+      "logo": "/technologies/leaflet.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/leaflet.svg",
+      "brandSource": "https://github.com/Leaflet/Leaflet/blob/d843c3b88486713827d7e860b58bdba75bfbd5a2/src/images/logo.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "googlemaps",
+      "name": "Google Maps",
+      "logo": "/technologies/googlemaps.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlemaps.svg",
+      "brandSource": "https://commons.wikimedia.org/wiki/File:Google_Maps_icon.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "maplibre",
+      "name": "MapLibre",
+      "logo": "/technologies/maplibre.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/maplibre.svg",
+      "brandSource": "https://github.com/maplibre/maplibre-gl-js-docs/blob/e916a4cdd671890126f88b26b2b16c04220dc4b0/docs/pages/assets/favicon/maplibregl-favicon.svg",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "logo": "/technologies/postman.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/postman.svg",
+      "brandSource": "https://www.getpostman.com/resources/media-assets/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "wpengine",
+      "name": "WP Engine",
+      "logo": "/technologies/wpengine.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wpengine.svg",
+      "brandSource": "https://wpengine.com/brand-assets",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "logo": "/technologies/pantheon.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pantheon.svg",
+      "brandSource": "https://projects.invisionapp.com/boards/8UOJQWW2J3G5#/1145336",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "logo": "/technologies/vercel.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/vercel.svg",
+      "brandSource": "https://vercel.com/geist/brands",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "logo": "/technologies/netlify.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/netlify.svg",
+      "brandSource": "https://www.netlify.com/press/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "logo": "/technologies/cloudinary.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudinary.svg",
+      "brandSource": "https://cloudinary.com",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "logo": "/technologies/zapier.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/zapier.svg",
+      "brandSource": "https://www.figma.com/file/NQFxTCE5pGR3dHZt0DkOyy/Zapier-Brand-Guidelines-%5BExternal%5D?type=design&node-id=101-9701&mode=design",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "twilio",
+      "name": "Twilio",
+      "logo": "/technologies/twilio.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/twilio.svg",
+      "brandSource": "https://www.twilio.com/company/brand",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "googleanalytics",
+      "name": "Google Analytics",
+      "logo": "/technologies/googleanalytics.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googleanalytics.svg",
+      "brandSource": "https://marketingplatform.google.com/intl/en_uk/about/analytics/",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "yoast",
+      "name": "Yoast",
+      "logo": "/technologies/yoast.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/yoast.svg",
+      "brandSource": "https://yoast.com/brand",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "logo": "/technologies/trello.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/trello.svg",
+      "brandSource": "https://atlassian.design/resources/logo-library",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "logo": "/technologies/jira.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/jira.svg",
+      "brandSource": "https://atlassian.design/resources/logo-library",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "logo": "/technologies/slack.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/slack.svg",
+      "brandSource": "https://slack.com/brand-guidelines",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "microsoftteams",
+      "name": "Microsoft Teams",
+      "logo": "/technologies/microsoftteams.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/microsoftteams.svg",
+      "brandSource": "https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "microsoftoffice",
+      "name": "Microsoft Office",
+      "logo": "/technologies/microsoftoffice.svg",
+      "source": "https://svgl.app/library/microsoft-office.svg",
+      "brandSource": "https://www.office.com/",
+      "provider": "SVGL"
+    },
+    {
+      "id": "microsoftexcel",
+      "name": "Microsoft Excel",
+      "logo": "/technologies/microsoftexcel.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/microsoftexcel.svg",
+      "brandSource": "https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
+      "provider": "Simple Icons"
+    },
+    {
+      "id": "googleworkspace",
+      "name": "Google Workspace",
+      "logo": "/technologies/googleworkspace.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg",
+      "provider": "Brand website"
+    }
+  ]
+}

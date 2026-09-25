@@ -70,6 +70,20 @@ h2 { font-size: clamp(2rem,4.6vw,4.5rem); line-height: 1.08; letter-spacing: -.0
 .recap-video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #111; object-fit: contain; }
 .recap-video:focus-visible { outline: 2px solid #fff; outline-offset: 7px; }
 .recap-section { padding-bottom: 0; }
+.technology-section { padding-bottom: 0; overflow: hidden; }
+.technology-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 42px; }
+.technology-heading h2 { font-size: clamp(1.5rem, 3vw, 2.75rem); }
+.technology-heading .slider-controls { flex-shrink: 0; }
+.technology-slider [data-slot="carousel-content"] { padding-left: max(56px, calc((100vw - 1440px) / 2)); overflow: visible; touch-action: pan-y pinch-zoom; }
+.technology-track { margin-left: 0; }
+.technology-slide { flex-basis: 180px; padding: 28px 20px 26px; border-top: 1px solid #333; border-bottom: 1px solid #333; text-align: center; }
+.technology-logo { height: 64px; display: flex; align-items: center; justify-content: center; margin-bottom: 22px; }
+.technology-mark { width: 100%; max-width: 112px; height: 56px; object-fit: contain; filter: brightness(0) invert(1); opacity: .85; user-select: none; }
+.technology-mark-tonal { filter: grayscale(1) brightness(1.4); }
+.technology-mark-inverted { filter: grayscale(1) invert(1); }
+.technology-slide p { color: #bbb; font-size: .875rem; line-height: 1.5; min-height: 2.625rem; }
+.technology-slide:hover .technology-mark { opacity: 1; }
+@media (max-width:760px) { .technology-heading { align-items: flex-end; gap: 16px; margin-bottom: 28px; } .technology-heading h2 { max-width: 12rem; } .technology-heading .slider-arrow { width: 44px; height: 44px; } .technology-heading .slider-controls { gap: 8px; } .technology-slider [data-slot="carousel-content"] { padding-left: 20px; } .technology-slide { flex-basis: 144px; padding-inline: 16px; } }
 .timeline-slider { overflow: hidden; }
 .timeline-slider [data-slot="carousel-content"] { overflow: visible; padding-left: max(56px,calc((100vw - 1440px) / 2)); }
 .timeline-slide { padding-left: 0; padding-right: 24px; flex-basis: 42%; min-width: 0; }
