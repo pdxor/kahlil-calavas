@@ -12,7 +12,7 @@ The site uses React, Vinext, and the existing Shadcn/Embla carousel. Navigation 
 
 `app/page.tsx` contains the biography and current projects. `app/tours.ts` contains the portfolio collection and original tour links. Edit the collection as new tours are published. The initial collection was checked against the live FutureLens.cloud site on September 24, 2026.
 
-The biography draws on Kahlil’s latest available résumé (Google Docs, modified September 3, 2026), his LinkedIn profile and recent public posts, and his public Facebook tour announcement. Employment start dates differ across sources, so the site deliberately avoids asserting those dates. No private posts, contact lists, analytics, or full résumé are included.
+The biography draws on Kahlil’s latest available résumé (Google Docs, modified September 3, 2026), his LinkedIn profile and recent public posts, and his public Facebook tour announcement. Employment start dates differ across sources, so the site deliberately avoids asserting those dates. No contact lists, analytics, or full résumé are included.
 
 Public source profiles:
 - https://www.linkedin.com/in/kahlil-c-8839b5192/
@@ -23,6 +23,14 @@ Public source profiles:
 The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliable local hosting. The Netlify site is intended for `https://kahlilcalavas.netlify.app`.
 
 The Future Lens and Future Lab sections use the official project pages. The October 3, 2026 Earth Tech gathering at Forest City Farms (3–11 PM Eastern) and event link were verified at https://thefuturist.network/futurelab on September 24, 2026. The recap uses the same public Future Lab / Accelerator film featured on The Futurist Network homepage and Future Lab page; its poster is hosted locally. The Future Lens illustration is an actual world-viewer capture from its public homepage.
+
+## Personal timeline
+
+The “View Kahlil’s timeline” callout opens a native modal dialog. `app/timeline-moments.ts` holds 12 selected moments from 2023–2026, their source links, image descriptions, credits, and themes. The story follows printed architectural prototypes, MIT Reality Hack, the incubator and accelerator, AWE, a UN STI Forum side event, architectural visualization, a fundraising digital twin, and Future Lab. Dates are Facebook publication dates unless an archive or event date is explicitly labeled. The garden entry uses the fundraiser publication date, not a claimed twin creation date.
+
+The overlay supports theme filters, year navigation, previous/next buttons, arrow keys, a photo index, and direct links such as `#timeline/awe-traces`. Browser Back, Escape, and Close dismiss the overlay. Native dialog behavior keeps keyboard focus inside; closing restores focus and motion respects reduced-motion preferences. Photos are locally hosted WebP assets. Original sources retain their Facebook or Drive access requirements. The matching nine-page PDF is downloadable from `/timeline/Kahlil-Calavas-Future-Lens-Timeline.pdf`.
+
+`app/personal-timeline.tsx` contains interaction behavior; the adjacent CSS module scopes the mineral, teal, and Manrope treatment to this feature. Manrope is distributed under the included SIL Open Font License. No embeds, autoplay, or tracking services are added by the timeline.
 
 ## Technology logos
 

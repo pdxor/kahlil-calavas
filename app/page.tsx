@@ -1,6 +1,7 @@
 import TourSlider from './tour-slider';
 import TechnologySlider from './technology-slider';
 import FuturistNetwork from './futurist-network';
+import PersonalTimeline from './personal-timeline';
 import Image from 'next/image';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           <div className="hero-copy"><h1 id="intro"><span className="intro-line">Hi, my name is</span><span>Kahlil</span><span>Calavas.</span></h1></div>
           <div className="hero-bottom"><p>Somewhere between code,<br />the land, and imagination.</p><a className="text-link" href="#work">Explore my work <span aria-hidden="true">↓</span></a></div>
         </section>
+        <PersonalTimeline />
         <section id="future-lens" className="section wrap project-section" aria-labelledby="future-lens-title">
           <div className="project-heading"><div><p className="eyebrow">What I’m building</p><h2 id="future-lens-title">Future Lens.</h2></div><div className="project-copy"><p className="large-copy">A place is more than a point on a map.</p><p>I’m building ways to step inside it. Future Lens brings together digital twins, 360° tours, augmented reality, and the stories that give a place its meaning.</p><p>Farms, gathering spaces, landscapes. Places you can explore from a distance, then see differently when you’re there.</p><a className="text-link" href="https://futurelens.cloud/" target="_blank" rel="noopener noreferrer">Explore Future Lens <span aria-hidden="true">↗</span></a></div></div>
           <a className="project-image" href="https://futurelens.cloud/" target="_blank" rel="noopener noreferrer" aria-label="Explore Future Lens — opens in a new tab"><Image src="/images/future-lens-world.webp" alt="Big Hollow Green’s digital landscape in the Future Lens world viewer" width={1600} height={900} unoptimized loading="lazy" /><span className="image-caption">Big Hollow Green / a world in progress <span aria-hidden="true">↗</span></span></a>
