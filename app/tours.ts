@@ -12,4 +12,3 @@ export const tours = [
   { slug: 'downtown-mall', name: 'Downtown Mall', location: 'Charlottesville, Virginia', kind: '3D atlas + 360°', image: '/tours/charlottesville-downtown-mall.webp', alt: 'Digital reconstruction of Charlottesville Downtown Mall over aerial imagery', note: 'The city at walking pace, explored through maps, stories, and a reconstructed streetscape.', url: 'https://charlottesville-downtown-mall.netlify.app/#overview' },
   { slug: 'chozen', name: 'ChoZen', location: 'Sebastian, Florida', kind: '3D + 360°', image: '/tours/chozen.jpg', alt: 'The lawn and outdoor gathering space at ChoZen’s Harvest House', note: 'From the Harvest House lawn into the retreat, through original 360° photography.', url: 'https://chozen-digital-twin.netlify.app/#scene=018' },
 ] as const;
-
