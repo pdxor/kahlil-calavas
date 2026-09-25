@@ -22,23 +22,6 @@ export type TimelineMoment = {
 
 export const timelineMoments: readonly TimelineMoment[] = [
   {
-    "id": "printing-the-possibility",
-    "date": "2023-08-15",
-    "year": 2023,
-    "title": "3D printed buckyball",
-    "place": "Joe LaRose · Spaceship Earth Engineers",
-    "description": "Joe LaRose’s 3D printed buckyball explores modular construction through physical prototypes. The small model makes it possible to examine shapes, materials, and assembly before attempting a full-size structure.",
-    "themes": [
-      "Architecture",
-      "Builders"
-    ],
-    "image": "/timeline/printed-dome.webp",
-    "alt": "A modular white printed dome prototype being held and demonstrated in a workshop.",
-    "source": "https://www.facebook.com/reel/1382131419055704/",
-    "credit": "Video still · 00:18",
-    "portrait": true
-  },
-  {
     "id": "reality-hack-2024",
     "date": "2024-01-29",
     "year": 2024,

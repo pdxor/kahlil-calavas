@@ -137,9 +137,9 @@ export default function PersonalTimeline() {
     <div className={`wrap ${styles.callout}`}>
       <button ref={triggerRef} className={styles.trigger} type="button" onClick={openTimeline} aria-haspopup="dialog" aria-controls="personal-timeline" aria-label="View Kahlil’s timeline">
         <span className={styles.preview} aria-hidden="true">
-          <Image src="/timeline/printed-dome.webp" alt="" width={112} height={88} unoptimized />
-          <Image src="/timeline/awe.webp" alt="" width={112} height={88} unoptimized />
           <Image src="/timeline/reality-hack-2024.webp" alt="" width={112} height={88} unoptimized />
+          <Image src="/timeline/awe.webp" alt="" width={112} height={88} unoptimized />
+          <Image src="/timeline/ecodome.webp" alt="" width={112} height={88} unoptimized />
         </span>
         <span className={styles.triggerCopy}><span className={styles.kicker}>Selected moments / {years[0]}–{years.at(-1)}</span><span className={styles.triggerTitle}>View Kahlil’s timeline</span><span className={styles.triggerNote}>Prototypes, immersive technology, and the people building what comes next.</span></span>
         <span className={styles.triggerArrow}><ArrowUpRight size={26} aria-hidden="true" /></span>

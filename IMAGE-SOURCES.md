@@ -24,7 +24,6 @@ Kahlil requested this public timeline and matching PDF with a focus on technolog
 
 | Local image | Source / credit |
 | --- | --- |
-| printed-dome.webp | https://www.facebook.com/reel/1382131419055704/ — Video still · 00:18 |
 | reality-hack-2024.webp | https://www.facebook.com/reel/911378390703000/ — Original video cover frame |
 | incubator.webp | https://www.facebook.com/reel/1377476806747501/ — Video still · 00:10 |
 | accelerator.webp | https://www.facebook.com/reel/1372795737188616/ — Video still · 01:50 |
@@ -42,6 +41,6 @@ Kahlil requested this public timeline and matching PDF with a focus on technolog
 
 The digital twin image is `08_GLB_Polycam_Preview.png` from Kahlil’s Alan Day Community Center project, showing the original captured scan. It is a current model view, not a dated screenshot of the creation process. The fundraising purpose is supplied by Kahlil; the entry date belongs to the fundraiser video. The AWE frame comes from `PXL_20250610_175513235.mp4` in the shared Traces AWE Video Share / Tavius folder. The archive date agrees with Kahlil’s June 10 AWE post.
 
-The EcoDome image is the existing product rendering at https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/model-images/654c2492-5f3b-4567-bf57-c4f5299fc7c1/product-image.jpg. January 30, 2026 is the model catalog’s displayed creation date, not a claimed construction or project start date. Kahlil identified Joe LaRose’s separate project as the 3D printed buckyball; the EcoTerra video is also treated as its own project.
+The EcoDome image is the existing product rendering at https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/model-images/654c2492-5f3b-4567-bf57-c4f5299fc7c1/product-image.jpg. January 30, 2026 is the model catalog’s displayed creation date, not a claimed construction or project start date. EcoTerra is treated as its own project.
 
 The Boxboi frame is extracted at 00:10 from the official pilot linked above. On September 25, 2026, this was the newest Boxboi story in the public story index (published July 4, 2026). It is a frame from the existing animation, not newly generated artwork. Source video: https://res.cloudinary.com/dhei6ntbf/video/upload/q_auto/stories/n0ftfl51ew0hkgghdhcg.
