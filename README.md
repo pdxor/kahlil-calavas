@@ -21,3 +21,5 @@ Public source profiles:
 - https://github.com/pdxor
 
 The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliable local hosting. The Netlify site is intended for `https://kahlilcalavas.netlify.app`.
+
+The Future Lens and Future Lab sections use the official project pages. The October 3, 2026 Earth Tech gathering at Forest City Farms (3–11 PM Eastern) and event link were verified at https://thefuturist.network/futurelab on September 24, 2026. The recap uses the same public Future Lab / Accelerator film featured on The Futurist Network homepage and Future Lab page; its poster is hosted locally. The Future Lens illustration is an actual world-viewer capture from its public homepage.
