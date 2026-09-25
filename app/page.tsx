@@ -26,7 +26,7 @@ export default function Home() {
         <section className="wrap lately-section" aria-labelledby="lately-title">
           <h2 id="lately-title" className="eyebrow">Also in the mix</h2>
           <div className="notes">
-            <a className="note" href="https://github.com/pdxor/futurelens-vr" target="_blank" rel="noopener noreferrer"><span className="note-number">01</span><div><h3>Beyond the screen</h3><p>Bringing the same worlds into VR and location-based AR. Scan a place. Build inside it. Walk back into it.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
+            <a className="note" href="https://futurelens.cloud/get-app" target="_blank" rel="noopener noreferrer"><span className="note-number">01</span><div><h3>Beyond the screen</h3><p>Bringing the same worlds into VR and location-based AR. Scan a place. Build inside it. Walk back into it.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
             <a className="note" href="https://github.com/pdxor/TreeXR" target="_blank" rel="noopener noreferrer"><span className="note-number">02</span><div><h3>Tree XR</h3><p>Wearable AR, natural environments, and community. A collaboration with Paige Dansinger and Marc Pettersen at the AWE 2026 Snap / Reality Hack.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
             <a className="note" href="https://github.com/pdxor/green-timeline" target="_blank" rel="noopener noreferrer"><span className="note-number">03</span><div><h3>Boxboi</h3><p>A solarpunk story I’m bringing to life. Back to imagination, worldbuilding, and making something with a little heart.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
           </div>
