@@ -1,4 +1,4 @@
-// Featured public FutureLens.cloud tours, curated 24 September 2026.
+// Featured public FutureLens.cloud tours, curated 25 September 2026.
 // Keep this a curated portfolio: all destinations are independent public tours.
 export const tours = [
   { slug: 'big-hollow-greene', name: 'Big Hollow Greene', location: 'Maplecrest, New York', kind: '3D + interiors', image: '/tours/big-hollow-greene.jpg', alt: 'Big Hollow Greene in the Catskills', note: 'The Catskills campus, farmhouse interiors, and room to imagine what comes next.', url: 'https://bighollowgreene-tour.netlify.app/' },
@@ -6,4 +6,6 @@ export const tours = [
   { slug: 'oya', name: 'OYA', location: 'Dominican Republic', kind: '360° exploration', image: '/tours/oya.webp', alt: 'The tropical grounds of OYA', note: 'A journey through tropical landscapes, connected one panorama at a time.', url: 'https://oya-360-tour.netlify.app/' },
   { slug: 'forest-city-farms', name: 'Forest City Farms', location: 'Whately, Massachusetts', kind: '3D + 360°', image: '/tours/forest-city-farms.jpg', alt: 'Forest City Farms and its growing spaces', note: 'Across the fields and inside the greenhouses. A closer look at a working farm.', url: 'https://forestcityfarms.netlify.app/' },
   { slug: 'alan-day', name: 'Alan Day Community Garden', location: 'Norway, Maine', kind: '3D + stories', image: '/tours/alan-day.webp', alt: 'Alan Day Community Garden', note: 'A community garden, its gathering spaces, and the people growing something together.', url: 'https://alanday.netlify.app/' },
+  { slug: 'white-lotus', name: 'White Lotus', location: 'Virginia', kind: '3D + 360°', image: '/tours/white-lotus.jpg', alt: 'The White Lotus treehouse in daylight', note: 'A treehouse, a quiet retreat, and a different way of seeing the grounds.', url: 'https://white-lotus-digital-twin.netlify.app/#place=treehouse&view=model' },
+  { slug: 'ix-art-park', name: 'IX Art Park', location: 'Charlottesville, Virginia', kind: '3D + stories', image: '/tours/ix-art-park.jpg', alt: 'The colorful courtyard at IX Art Park', note: 'A place where art spills outside. A world you can wander through.', url: 'https://ix-art-park-tour.netlify.app/' },
 ] as const;
