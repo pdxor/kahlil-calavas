@@ -1,5 +1,6 @@
 import TourSlider from './tour-slider';
 import TechnologySlider from './technology-slider';
+import FuturistNetwork from './futurist-network';
 import Image from 'next/image';
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
           <div className="project-heading"><div><p className="eyebrow">Out in the world</p><h2 id="future-lab-title">Future Lab.</h2></div><div className="project-copy"><p className="large-copy">Good ideas need somewhere to land.</p><p>Future Lab brings builders, artists, technologists, and people working with the land together to try things, share what they know, and make something real.</p><p>The next gathering brings us to Forest City Farms. We’ll explore food sovereignty, regenerative practices, and technology for food abundance — with three presentations and one shared project.</p><a className="text-link" href="https://thefuturist.network/futurelab" target="_blank" rel="noopener noreferrer">Inside Future Lab <span aria-hidden="true">↗</span></a></div></div>
           <div className="lab-event"><div className="event-date"><p className="eyebrow">Next gathering / 2026</p><time dateTime="2026-10-03">October <span>03</span></time><p>Saturday · 3–11 PM ET</p></div><div className="event-details"><p className="eyebrow">Future Lab / Earth Tech</p><h3>Forest City Farms.</h3><p>Whately, Massachusetts</p><p>A day around the food systems we want to grow. Come for the ideas. Stay for the work, the people, and the evening.</p><a className="text-link" href="https://thefuturist.network/public/events/48beb196-786b-4ef9-bb98-46b09b92a18d" target="_blank" rel="noopener noreferrer">Event details & RSVP <span aria-hidden="true">↗</span></a></div></div>
         </section>
+        <FuturistNetwork />
         <section id="about" className="section wrap about-section" aria-labelledby="about-title">
           <div><p className="eyebrow">A little context</p><h2 id="about-title">Between<br />worlds.</h2></div>
           <div className="about-copy">

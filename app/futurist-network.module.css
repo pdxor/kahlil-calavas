@@ -1,0 +1,42 @@
+.section {
+  padding-bottom: 0;
+}
+
+.heading {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding-block: clamp(32px, 5vw, 64px);
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.join {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  min-height: 54px;
+  padding: 16px 22px;
+  background: var(--foreground);
+  color: var(--background);
+  border: 1px solid var(--foreground);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.join:hover {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.heading p.domain {
+  font-size: .875rem;
+  margin: 18px 0 0;
+}
+
+@media (max-width: 760px) {
+  .join {
+    width: 100%;
+    gap: 16px;
+  }
+}
