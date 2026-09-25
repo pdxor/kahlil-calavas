@@ -20,7 +20,7 @@ Sources checked September 24, 2026. Files are hosted locally to avoid expiring s
 
 ## Personal timeline (September 25, 2026)
 
-Kahlil requested this public timeline and matching PDF with a focus on technology, architecture, hackathons, and the incubator / accelerator. Images come from source videos, cover frames, the original photogrammetry scan, and the EcoDome catalog rendering. No new imagery was generated for the timeline. The EcoTerra visualization was cropped to remove black letterboxing; other originals were only resized and encoded. Dates and source links are recorded in `app/timeline-moments.ts`.
+Kahlil requested this public timeline and matching PDF with a focus on technology, architecture, hackathons, and the incubator / accelerator. Images come from source videos, cover frames, the original photogrammetry scan, and the EcoDome catalog rendering. No new imagery was generated for the timeline. The EcoTerra visualization was cropped to remove black letterboxing. The Biotekt interior frame excludes the lower subtitle band. Other originals were only resized and encoded. Dates and source links are recorded in `app/timeline-moments.ts`.
 
 | Local image | Source / credit |
 | --- | --- |
@@ -30,7 +30,7 @@ Kahlil requested this public timeline and matching PDF with a focus on technolog
 | awe.webp | https://drive.google.com/file/d/1nn2jqEU_a--VFe36upWAVV6skZF7HgOc/view — Traces AWE video archive · Tavius folder · Still at 00:00.5 |
 | forum.webp | https://www.facebook.com/reel/803745888654229/ — Film credited to Eslerh Oreste · Still at 00:40 |
 | dome-visualization.webp | https://www.facebook.com/reel/2716766281993413/ — Architectural visualization · Video still at 00:08; black bars cropped |
-| architectural-systems.webp | https://www.facebook.com/reel/728036046465694/ — Video still · 00:20 |
+| biotekt-interior.webp | https://thefuturist.network/public/story/0e68516c-c98f-4a62-8289-c0d772d25e49 — Biotekt build footage · Interior still at 00:26 (cropped) |
 | reality-hack-2026.webp | https://www.facebook.com/reel/839262405779656/ — Video still · 00:30 |
 | ecodome.webp | https://thefuturist.network/public/models/654c2492-5f3b-4567-bf57-c4f5299fc7c1 — EcoDome architectural visualization · The Futurist Network catalog |
 | digital-twin.webp | https://www.facebook.com/reel/1293283726122683/ — Original garden scan, current model view · Fundraiser video cover frame |
@@ -40,6 +40,8 @@ Kahlil requested this public timeline and matching PDF with a focus on technolog
 | fundraiser.webp | https://www.facebook.com/reel/1293283726122683/ — original video cover frame |
 
 The digital twin image is `08_GLB_Polycam_Preview.png` from Kahlil’s Alan Day Community Center project, showing the original captured scan. It is a current model view, not a dated screenshot of the creation process. The fundraising purpose is supplied by Kahlil; the entry date belongs to the fundraiser video. The AWE frame comes from `PXL_20250610_175513235.mp4` in the shared Traces AWE Video Share / Tavius folder. The archive date agrees with Kahlil’s June 10 AWE post.
+
+The Biotekt image is an unoccupied interior at 00:26 in “Biotekt Animal Shelter Build,” published December 7, 2025 by Biotekt on The Futurist Network: https://thefuturist.network/public/story/0e68516c-c98f-4a62-8289-c0d772d25e49. Source video: https://res.cloudinary.com/dhei6ntbf/video/upload/q_auto/stories/elejhmmcaqzwi8edfcv2. The upper 480 × 618 pixels of the 480 × 848 video frame were selected to leave out the subtitle band. The timeline entry retains the December 3 publication date and link of Kahlil’s original visit post. This replacement removes the prior interview portrait from all timeline images and the PDF.
 
 The EcoDome image is the existing product rendering at https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/model-images/654c2492-5f3b-4567-bf57-c4f5299fc7c1/product-image.jpg. January 30, 2026 is the model catalog’s displayed creation date, not a claimed construction or project start date. EcoTerra is treated as its own project.
 

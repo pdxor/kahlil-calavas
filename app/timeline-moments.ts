@@ -136,10 +136,16 @@ export const timelineMoments: readonly TimelineMoment[] = [
       "Architecture",
       "Builders"
     ],
-    "image": "/timeline/architectural-systems.webp",
-    "alt": "A discussion inside an unfinished vaulted structure with repeated modular architectural forms.",
+    "image": "/timeline/biotekt-interior.webp",
+    "alt": "An empty Biotekt interior with modular vaulted arches, an arched doorway, and a window opening onto trees.",
     "source": "https://www.facebook.com/reel/728036046465694/",
-    "credit": "Video still · 00:20"
+    "credit": "Biotekt build footage · Interior still at 00:26 (cropped)",
+    "relatedLinks": [
+      {
+        "label": "View image source",
+        "url": "https://thefuturist.network/public/story/0e68516c-c98f-4a62-8289-c0d772d25e49"
+      }
+    ]
   },
   {
     "id": "reality-hack-2026",
