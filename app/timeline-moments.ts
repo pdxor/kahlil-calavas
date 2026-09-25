@@ -25,9 +25,9 @@ export const timelineMoments: readonly TimelineMoment[] = [
     "id": "printing-the-possibility",
     "date": "2023-08-15",
     "year": 2023,
-    "title": "Printing the possibility",
-    "place": "EcoDome journey · Modular prototypes",
-    "description": "Prototyping printed dome components with Joe LaRose and Spaceship Earth Engineers. Small physical models make it possible to test shapes, materials, and assembly before attempting a full-size structure.",
+    "title": "3D printed buckyball",
+    "place": "Joe LaRose · Spaceship Earth Engineers",
+    "description": "Joe LaRose’s 3D printed buckyball explores modular construction through physical prototypes. The small model makes it possible to examine shapes, materials, and assembly before attempting a full-size structure.",
     "themes": [
       "Architecture",
       "Builders"
@@ -131,8 +131,8 @@ export const timelineMoments: readonly TimelineMoment[] = [
     "date": "2025-10-06",
     "year": 2025,
     "title": "See it before building it",
-    "place": "EcoDome journey · Architectural visualization",
-    "description": "The dome journey moves from physical prototypes to immersive planning. This EcoTerra demonstration places a dome design in a virtual setting, exploring how mixed reality can help people understand a proposal before construction begins.",
+    "place": "EcoTerra · Architectural visualization",
+    "description": "This EcoTerra demonstration places a dome design in a virtual setting. Mixed reality lets people explore a proposed layout and understand its scale before construction begins.",
     "themes": [
       "Architecture",
       "XR & tools"
@@ -182,6 +182,30 @@ export const timelineMoments: readonly TimelineMoment[] = [
     ]
   },
   {
+    "id": "ecodome-design",
+    "date": "2026-01-30",
+    "year": 2026,
+    "title": "EcoDome",
+    "place": "Architectural design · The Futurist Network",
+    "description": "A central dome, surrounding rooms, and planted roof surfaces come together in the EcoDome proposal. The architectural visualization and structural model offer two ways to examine the layout and explore how its spaces fit together.",
+    "themes": [
+      "Architecture",
+      "XR & tools"
+    ],
+    "image": "/timeline/ecodome.webp",
+    "alt": "An architectural rendering of EcoDome, with a central dome above a planted ring of vaulted rooms and arched entrances.",
+    "source": "https://thefuturist.network/public/models/654c2492-5f3b-4567-bf57-c4f5299fc7c1",
+    "credit": "EcoDome architectural visualization · The Futurist Network catalog",
+    "dateLabel": "Model catalog date",
+    "sourceLabel": "Explore the EcoDome model",
+    "relatedLinks": [
+      {
+        "label": "View structural model",
+        "url": "https://thefuturist.network/public/models/ce239108-8626-45b2-9a59-fdb3f288e268"
+      }
+    ]
+  },
+  {
     "id": "a-digital-twin-with-a-purpose",
     "date": "2026-06-22",
     "year": 2026,
@@ -206,6 +230,29 @@ export const timelineMoments: readonly TimelineMoment[] = [
       {
         "label": "Explore the digital twin",
         "url": "https://alanday.netlify.app/"
+      }
+    ]
+  },
+  {
+    "id": "boxboi-green-timeline",
+    "date": "2026-07-04",
+    "year": 2026,
+    "title": "Boxboi: The Green Timeline",
+    "place": "Official pilot · Boxboi chronicles",
+    "description": "Boxboi brings the spatial work into an animated story. The official pilot moves between a futuristic city and a wooded setting, using characters and virtual environments to give the world a narrative form.",
+    "themes": [
+      "XR & tools"
+    ],
+    "image": "/timeline/boxboi-pilot.webp",
+    "alt": "Two box-headed robot characters in a detailed futuristic city, from the Boxboi official pilot.",
+    "source": "https://thefuturist.network/public/story/0dc3d677-38d1-41d6-8e5d-dd27c0156530",
+    "credit": "Boxboi — The Green Timeline, official pilot · Animation still at 00:10",
+    "dateLabel": "Story publication",
+    "sourceLabel": "Watch the episode",
+    "relatedLinks": [
+      {
+        "label": "Explore Boxboi chronicles",
+        "url": "https://thefuturist.network/projects/public/b8cd8de9-9a03-4c9c-acc8-d9356b3d0bac"
       }
     ]
   },
