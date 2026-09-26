@@ -13,5 +13,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={lato.variable}><body>{children}</body></html>;
+  return <html lang="en" className={lato.variable}><body>{children}<script src="/contact-card.js" defer /></body></html>;
 }

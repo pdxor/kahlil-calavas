@@ -72,7 +72,8 @@ export default function Home() {
           </article>
         </section>
         <footer id="contact" className="section wrap contact">
-          <p className="eyebrow">Keep in touch</p><h2><a href="mailto:kahlilcalavas@gmail.com">Say hello. <span aria-hidden="true">↗</span></a></h2>
+          {/* oxlint-disable-next-line next/no-html-link-for-pages -- Native navigation opens the downloadable vCard rather than a React route. */}
+          <a className="text-link" href="/kahlil-calavas.vcf">Save my contact ↓</a><p className="eyebrow">Keep in touch</p><h2><a href="mailto:kahlilcalavas@gmail.com">Say hello. <span aria-hidden="true">↗</span></a></h2>
           <div className="footer-bottom"><p>© 2026 Kahlil Calavas</p><nav aria-label="Social links"><a href="https://www.linkedin.com/in/kahlil-c-8839b5192/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.facebook.com/kahlil.calavas" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://github.com/pdxor" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav><a className="back-top" href="#main">Back to the top ↑</a></div>
         </footer>
       </main>

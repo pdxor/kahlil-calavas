@@ -157,4 +157,13 @@ h2 { font-size: clamp(2rem,4.6vw,4.5rem); line-height: 1.08; letter-spacing: -.0
 @media (max-width:760px) { .wrap { width: calc(100% - 40px); } .site-header { height: 84px; } .wordmark { font-size: .75rem; letter-spacing: .05em; } nav { gap: 18px; font-size: .85rem; } nav a:first-child { display: none; } .hero { min-height: 750px; min-height: min(850px, calc(100svh - 84px)); padding-top: 260px; } .portrait { width: calc(100% + 40px); right: -20px; height: 78%; } .portrait img { object-position: center top; } .portrait::after { background: linear-gradient(0deg,#000 0%,transparent 70%),linear-gradient(180deg,#000 0%,transparent 16%); } h1 { font-size: clamp(4.5rem,17vw,8rem); } h1 .intro-line { font-size: 1rem; margin-bottom: 18px; } .hero-copy { padding-bottom: 18px; } .hero-bottom { padding-bottom: 16px; gap: 20px; } .hero-bottom p { font-size: 1rem; } .hero-bottom .text-link { font-size: .8rem; gap: 10px; } .section { padding-top: 100px; padding-bottom: 50px; } }
 @media (max-width:380px) { .hero-bottom { align-items: flex-start; flex-direction: column; gap: 5px; } }
 @media (max-width:760px) { .site-header nav a[href="#future-lab"], .site-header nav a[href="#about"] { display: none; } }
+#contact-invitation { position:fixed; z-index:1000; bottom:max(16px,env(safe-area-inset-bottom)); left:16px; right:16px; max-width:420px; margin-left:auto; padding:24px; background:#fff; color:#111; border:1px solid #ddd; box-shadow:0 12px 60px #0008; max-height:calc(100dvh - 32px); overflow:auto; }
+#contact-invitation h2 { font-size:26px; text-transform:none; letter-spacing:-.03em; margin:8px 0 14px; }
+#contact-invitation p { font-size:14px; line-height:1.5; margin:6px 0; }
+#contact-invitation .contact-invitation-label { font-size:10px; letter-spacing:.15em; text-transform:uppercase; }
+#contact-invitation a,#contact-invitation button { display:block; text-align:center; width:100%; padding:13px 10px; font-size:15px; cursor:pointer; }
+#contact-invitation .contact-invitation-save { margin-top:18px; background:#111; color:#fff; }
+#contact-invitation button { background:transparent; color:#111; border:0; margin-top:5px; }
+#contact-invitation a:focus-visible,#contact-invitation button:focus-visible { outline:2px solid #111; outline-offset:2px; }
+@media print { #contact-invitation { display:none; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } *,*::before,*::after { animation: none !important; transition: none !important; } }
