@@ -46,3 +46,17 @@ The Biotekt image is an unoccupied interior at 00:26 in “Biotekt Animal Shelte
 The EcoDome image is the existing product rendering at https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/model-images/654c2492-5f3b-4567-bf57-c4f5299fc7c1/product-image.jpg. January 30, 2026 is the model catalog’s displayed creation date, not a claimed construction or project start date. EcoTerra is treated as its own project.
 
 The Boxboi frame is extracted at 00:10 from the official pilot linked above. On September 25, 2026, this was the newest Boxboi story in the public story index (published July 4, 2026). It is a frame from the existing animation, not newly generated artwork. Source video: https://res.cloudinary.com/dhei6ntbf/video/upload/q_auto/stories/n0ftfl51ew0hkgghdhcg.
+
+## Expanded project showcases (September 26, 2026)
+
+The Futurist Network and Future Lens use a shared responsive showcase with three images and three linked features each. Copy was checked against the public homepages at https://thefuturist.network/ and https://futurelens.cloud/ on September 26, 2026.
+
+| Local image | Original source |
+| --- | --- |
+| network-gathering.jpg | https://thefuturist.network/images/residency/38.jpg |
+| network-interior.jpg | https://thefuturist.network/images/latest-homepage/interiror.jpg — existing promotional artwork |
+| network-accelerator.jpg | https://thefuturist.network/images/residency/15.jpg |
+| future-lens-alley.webp | https://futurelens.cloud/marketing/product/alley-editor.webp — actual editor capture |
+| future-lens-ar.jpg | https://futurelens.cloud/marketing/process/publish.jpg — frame from the IX Art Park AR pilot |
+
+These assets are hosted locally, unchanged. The Big Hollow Green image depicts a digital planning scene including proposed structures.

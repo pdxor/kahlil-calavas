@@ -1,6 +1,8 @@
 import TourSlider from './tour-slider';
 import TechnologySlider from './technology-slider';
 import FuturistNetwork from './futurist-network';
+import FutureLens from './future-lens';
+import FutureLab from './future-lab';
 import PersonalTimeline from './personal-timeline';
 import Image from 'next/image';
 
@@ -18,20 +20,6 @@ export default function Home() {
           <div className="hero-copy"><h1 id="intro"><span className="intro-line">Hi, my name is</span><span>Kahlil</span><span>Calavas.</span></h1></div>
           <div className="hero-bottom"><p>Somewhere between code,<br />the land, and imagination.</p><a className="text-link" href="#work">Explore my work <span aria-hidden="true">↓</span></a></div>
         </section>
-        <PersonalTimeline />
-        <section id="future-lens" className="section wrap project-section" aria-labelledby="future-lens-title">
-          <div className="project-heading"><div><p className="eyebrow">What I’m building</p><h2 id="future-lens-title">Future Lens.</h2></div><div className="project-copy"><p className="large-copy">A place is more than a point on a map.</p><p>I’m building ways to step inside it. Future Lens brings together digital twins, 360° tours, augmented reality, and the stories that give a place its meaning.</p><p>Farms, gathering spaces, landscapes. Places you can explore from a distance, then see differently when you’re there.</p><a className="text-link" href="https://futurelens.cloud/" target="_blank" rel="noopener noreferrer">Explore Future Lens <span aria-hidden="true">↗</span></a></div></div>
-          <a className="project-image" href="https://futurelens.cloud/" target="_blank" rel="noopener noreferrer" aria-label="Explore Future Lens — opens in a new tab"><Image src="/images/future-lens-world.webp" alt="Big Hollow Green’s digital landscape in the Future Lens world viewer" width={1600} height={900} unoptimized loading="lazy" /><span className="image-caption">Big Hollow Green / a world in progress <span aria-hidden="true">↗</span></span></a>
-        </section>
-        <section id="work" className="work-section" aria-labelledby="work-title">
-          <div className="section wrap work-heading"><div><p className="eyebrow">Recent digital twins / Future Lens</p><h2 id="work-title">Places you<br />can step into.</h2></div><div><p className="section-intro">A few places I’ve been turning into worlds.<br />Take your time. Have a look around.</p><a href="https://futurelens.cloud/#tours" target="_blank" rel="noopener noreferrer" className="text-link">More at Future Lens <span aria-hidden="true">↗</span></a></div></div>
-          <TourSlider />
-        </section>
-        <section id="future-lab" className="section wrap project-section lab-section" aria-labelledby="future-lab-title">
-          <div className="project-heading"><div><p className="eyebrow">Out in the world</p><h2 id="future-lab-title">Future Lab.</h2></div><div className="project-copy"><p className="large-copy">Good ideas need somewhere to land.</p><p>Future Lab brings builders, artists, technologists, and people working with the land together to try things, share what they know, and make something real.</p><p>The next gathering brings us to Forest City Farms. We’ll explore food sovereignty, regenerative practices, and technology for food abundance — with three presentations and one shared project.</p><a className="text-link" href="https://thefuturist.network/futurelab" target="_blank" rel="noopener noreferrer">Inside Future Lab <span aria-hidden="true">↗</span></a></div></div>
-          <div className="lab-event"><div className="event-date"><p className="eyebrow">Next gathering / 2026</p><time dateTime="2026-10-03">October <span>03</span></time><p>Saturday · 3–11 PM ET</p></div><div className="event-details"><p className="eyebrow">Future Lab / Earth Tech</p><h3>Forest City Farms.</h3><p>Whately, Massachusetts</p><p>A day around the food systems we want to grow. Come for the ideas. Stay for the work, the people, and the evening.</p><a className="text-link" href="https://thefuturist.network/public/events/48beb196-786b-4ef9-bb98-46b09b92a18d" target="_blank" rel="noopener noreferrer">Event details & RSVP <span aria-hidden="true">↗</span></a></div></div>
-        </section>
-        <FuturistNetwork />
         <section id="about" className="section wrap about-section" aria-labelledby="about-title">
           <div><p className="eyebrow">A little context</p><h2 id="about-title">Between<br />worlds.</h2></div>
           <div className="about-copy">
@@ -44,6 +32,14 @@ export default function Home() {
             <a className="text-link" href="https://www.linkedin.com/in/kahlil-c-8839b5192/" target="_blank" rel="noopener noreferrer">The longer version <span aria-hidden="true">↗</span></a>
           </div>
         </section>
+        <PersonalTimeline />
+        <FutureLens />
+        <FuturistNetwork />
+        <section id="work" className="work-section" aria-labelledby="work-title">
+          <div className="section wrap work-heading"><div><p className="eyebrow">Recent digital twins / Future Lens</p><h2 id="work-title">Places you<br />can step into.</h2></div><div><p className="section-intro">A few places I’ve been turning into worlds.<br />Take your time. Have a look around.</p><a href="https://futurelens.cloud/#tours" target="_blank" rel="noopener noreferrer" className="text-link">More at Future Lens <span aria-hidden="true">↗</span></a></div></div>
+          <TourSlider />
+        </section>
+        <FutureLab />
         <section className="wrap lately-section" aria-labelledby="lately-title">
           <h2 id="lately-title" className="eyebrow">Also in the mix</h2>
           <div className="notes">
