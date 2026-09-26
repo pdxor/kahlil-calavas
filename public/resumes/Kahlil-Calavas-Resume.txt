@@ -1,0 +1,59 @@
+Kahlil Calavas
+Creative technologist · Spatial computing · Web development
+kahlilcalavas@gmail.com | 860-834-4959
+https://kahlilcalavas.netlify.app
+
+PROFESSIONAL SUMMARY
+Creative technologist and CTO at TerraLux working across web platforms, digital twins, augmented reality, and immersive storytelling. Combines React, TypeScript, and Unity development with on-site capture, interface design, and a decade of professional web development. Builds tools and experiences that connect people, places, and ideas.
+
+PROFESSIONAL EXPERIENCE
+TerraLux / The Futurist Network | Chief Technology Officer
+Aug 2022 - Present
+- Develop and maintain The Futurist Network with React, TypeScript, and Supabase: a digital twin, project management, and social platform for designing, building, and funding businesses.
+- Develop a Unity-based iOS platform for world-scale augmented reality, connected to the Futurist Toolkit and location datasets.
+- Create architectural visualizations, digital twins, and 3D captures; demonstrate spatial systems through mixed reality map tables and public showcases.
+- Support technology operations, fundraising presentations, and investment outreach.
+
+BehindTheChair.com | Web Development | WordPress & Next.js
+Apr 2023 - Aug 2024
+- Maintained WordPress, Shopify, and Thought Industries learning platforms; integrated third-party APIs and plugins.
+- Developed headless WordPress experiences with Next.js 13, Vercel, and WP Engine, collaborating across teams using Git.
+
+The Walker Group | Front End Web Developer
+Jul 2020 - Apr 2023
+- Built WordPress themes, plugins, and API integrations with cross-functional teams.
+- Managed backups, updates, quality assurance, and Git-based development workflows.
+
+GraVoc Inc. | Front End Web Developer
+Oct 2019 - Jul 2020
+- Developed WordPress themes and plugins, maintained websites across multiple frameworks, and deployed Firebase applications.
+- Built an internal web development code wiki and coordinated projects through GitHub.
+
+Miranda Creative | Front End Web Developer
+Dec 2017 - Feb 2019
+- Translated Sketch designs into interactive WordPress themes using Genesis and Advanced Custom Fields.
+- Maintained client websites, supported proposals, and improved accessibility for Connecticut library websites.
+
+Systematic Automation | Front End Web Developer
+Jan 2016 - Nov 2017
+- Migrated static websites to WordPress and developed custom themes, plugins, and search-optimized machine sales pages.
+- Created a machine directory combining video, photography, and interactive product presentations.
+
+SELECTED PROJECTS
+Future Lens | https://futurelens.cloud
+Digital twins, 360-degree tours, and location-based AR that connect capture, spatial editing, and real-world experiences. Portfolio includes IX Art Park, Big Hollow Greene, and Alan Day Community Garden.
+
+Future Lab | https://thefuturist.network/futurelab
+A setting for builders, artists, and technologists to share ideas, demonstrate immersive tools, and develop projects through gatherings and working sessions.
+
+Tree XR & Boxboi | https://github.com/pdxor/TreeXR
+Wearable AR collaboration with Paige Dansinger and Marc Pettersen at the AWE 2026 Snap / Reality Hack; solarpunk storytelling and virtual worldbuilding through Boxboi.
+
+TECHNICAL SKILLS
+Web & platforms: React, TypeScript, Next.js, JavaScript, PHP, HTML5, CSS, WordPress, Shopify, Supabase, Firebase, REST APIs
+Spatial & capture: Unity / C#, ARKit, ARCore, AR Foundation, XR Interaction Toolkit, Blender, Unreal Engine, Matterport, Polycam, RealityCapture, DroneDeploy, 360-degree capture
+Design & delivery: Figma, Sketch, Adobe Creative Cloud, Mapbox, Google Maps, OpenAI API, Git, Docker, Jira, Trello, CI/CD familiarity
+
+EDUCATION & PROFESSIONAL DEVELOPMENT
+Central Connecticut State University | Graphic Technology | 2005 - 2009
+Treehouse | Full Stack Career Track / continuing learning | 2013 - Present

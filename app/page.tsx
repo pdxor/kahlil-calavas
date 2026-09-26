@@ -5,6 +5,7 @@ import FutureLens from './future-lens';
 import FutureLab from './future-lab';
 import PersonalTimeline from './personal-timeline';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <a className="skip-link" href="#main">Skip to content</a>
       <header className="site-header wrap">
         <a className="wordmark" href="#main" aria-label="Kahlil Calavas, home">KAHLIL CALAVAS</a>
-        <nav aria-label="Main navigation"><a href="#future-lens">Future Lens</a><a href="#future-lab">Future Lab</a><a href="#about">About</a><a href="#contact">Connect ↗</a></nav>
+        <nav aria-label="Main navigation"><a href="#future-lens">Future Lens</a><a href="#future-lab">Future Lab</a><a href="#about">About</a><Link href="/resume">Résumé</Link><a href="#contact">Connect ↗</a></nav>
       </header>
       <main id="main">
         <section className="hero wrap" aria-labelledby="intro">
@@ -30,6 +31,7 @@ export default function Home() {
             <p>Though my entrepreneurial career has been uninterrupted for over a decade, I’ve also held positions at traditional technology companies. I’ve spent years making websites, shaping interfaces, and figuring things out with good teams at BehindTheChair.com, The Walker Group, GraVoc, Terralux and The German Kitchen Center. I appreciate the range of work, but one thing has stayed constant across every project: I love helping people turn their dreams into real deliverables and services.</p>
             <p>I hope I get to learn your story soon. One of you out there has my next assignment to push the boundaries of immersive technology.</p>
             <a className="text-link" href="https://www.linkedin.com/in/kahlil-c-8839b5192/" target="_blank" rel="noopener noreferrer">The longer version <span aria-hidden="true">↗</span></a>
+            <Link className="text-link" href="/resume">View my résumé <span aria-hidden="true">↗</span></Link>
           </div>
         </section>
         <PersonalTimeline />

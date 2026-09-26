@@ -1,0 +1,32 @@
+.resume-page { background:#000; color:#fff; }
+.resume-nav { display:flex; justify-content:space-between; gap:24px; padding:28px 5%; font-size:12px; letter-spacing:.08em; }
+.resume-hero { min-height:620px; display:flex; align-items:center; background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.2)),url('/images/future-lens-scan-capture.png') center 48%/cover; }
+.resume-hero-inner { width:90%; margin:0 auto; padding:65px 0; }
+.resume-hero h1 { font-size:clamp(4.5rem,10vw,10rem); }
+.resume-tagline { font-size:clamp(1.2rem,2.5vw,2rem); line-height:1.4; margin-top:35px; }
+.resume-downloads { display:flex; flex-wrap:wrap; border-bottom:1px solid #333; }
+.resume-downloads a { display:flex; gap:40px; align-items:center; justify-content:space-between; padding:28px 3%; flex:1 1 240px; border-right:1px solid #333; }
+.resume-downloads a:hover { background:#222; }
+.resume-downloads a.resume-primary { background:white;color:black; }
+.resume-downloads a.resume-primary:hover { background:#ddd; }
+.resume-downloads span { font-size:12px; white-space:nowrap; }
+.resume-content { width:min(1150px,90%); margin:0 auto; }
+.resume-content > section { padding:80px 0; border-bottom:1px solid #333; }
+.resume-content h2 { margin-bottom:40px; }
+.resume-summary { font-size:clamp(1.2rem,2.5vw,1.65rem); line-height:1.65; max-width:950px; }
+.resume-content address { display:flex; flex-wrap:wrap; gap:22px; margin-top:30px; font-style:normal; color:#bbb; }
+.resume-job { display:grid; grid-template-columns:1fr 1.45fr; gap:50px; padding:28px 0; border-bottom:1px solid #222; }
+.resume-job:last-child { border:0; padding-bottom:0; }
+.resume-content h3 { font-size:1.3rem; line-height:1.35; }
+.resume-role { margin-top:9px; color:#ddd; }
+.resume-dates { margin-top:9px; color:#999; font-size:.9rem; }
+.resume-job ul { list-style:disc; padding-left:20px; margin:0; color:#bbb; line-height:1.7; }
+.resume-job li + li { margin-top:10px; }
+.resume-projects,.resume-skills { display:grid;grid-template-columns:repeat(3,1fr);gap:25px; }
+.resume-projects img { width:100%;height:auto;aspect-ratio:5/3;object-fit:cover; margin-bottom:20px; }
+.resume-projects p,.resume-skills p { color:#bbb;line-height:1.7; margin-top:14px; }
+.resume-education + .resume-education { margin-top:28px; }
+.resume-education p { margin-top:8px;color:#bbb; }
+.resume-footer { width:90%; margin:auto; padding:50px 0; display:flex; flex-wrap:wrap; gap:30px; justify-content:space-between; }
+@media(max-width:700px) { .resume-hero { min-height:560px; background-position:58% center; } .resume-job { grid-template-columns:1fr; gap:20px; } .resume-projects,.resume-skills { grid-template-columns:1fr; gap:35px; } .resume-content > section { padding:55px 0; } .resume-nav { font-size:10px; } }
+@media print { .resume-nav,.resume-hero,.resume-downloads,.resume-footer,.resume-projects img { display:none; } .resume-page { background:white; color:black; } .resume-content { width:100%; } .resume-content > section { padding:18px 0; } .resume-content > section:first-child::before { content:'Kahlil Calavas'; display:block; font-size:26px; font-weight:bold; margin-bottom:20px; } .resume-content h2 { font-size:22px; margin-bottom:14px; } .resume-content p,.resume-content address,.resume-job ul { color:black; } .resume-summary { font-size:12px; } .resume-job { display:block; break-inside:avoid; padding:14px 0; } .resume-projects,.resume-skills { display:block; } .resume-projects a,.resume-skills > div { display:block; margin-bottom:15px; } }
