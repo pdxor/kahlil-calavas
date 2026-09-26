@@ -24,6 +24,12 @@ The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliabl
 
 The Future Lens and Future Lab sections use the official project pages. The October 3, 2026 Earth Tech gathering at Forest City Farms (3–11 PM Eastern) and event link were verified at https://thefuturist.network/futurelab on September 24, 2026. The recap uses the same public Future Lab / Accelerator film featured on The Futurist Network homepage and Future Lab page; its poster is hosted locally. The Future Lens illustration is an actual world-viewer capture from its public homepage.
 
+## Boxboi 360° stories
+
+The homepage’s `#boxboi-360` section presents ten 30-second films, with trip-hop music and sound effects and no narration. `app/boxboi-stories.tsx` embeds the public spherical playlist from [Cinemagraph Creator](https://equirectangular-cinemagraph-creator.netlify.app/360/). The original MP4s, posters, story descriptions, and player code live in the [creator repository](https://github.com/pdxor/equirectangular-cinemagraph-creator/tree/main/site/360), so there is one collection to maintain.
+
+The iframe loads lazily and never starts video until the visitor presses play or chooses a story. It supports drag/touch/keyboard look-around, seeking, sound, fullscreen, next-story playback, optional collection looping, share links, and original 360° MP4 downloads. Resize messages are accepted only from the known player origin and the actual iframe window. No API keys or accounts are needed. The creator’s Content Security Policy explicitly allows this portfolio to embed the player.
+
 ## Personal timeline
 
 The “View Kahlil’s timeline” callout opens a native modal dialog. `app/timeline-moments.ts` holds 13 selected moments from 2024–2026, their source links, image descriptions, credits, and themes. The story follows MIT Reality Hack, the incubator and accelerator, AWE, a UN STI Forum side event, EcoTerra visualization, modular architectural systems, EcoDome, a fundraising digital twin, the Boxboi official pilot, and Future Lab. Dates mark source publication unless an archive, catalog, or event date is explicitly labeled. The garden entry uses the fundraiser publication date, not a claimed twin creation date.

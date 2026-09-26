@@ -4,6 +4,7 @@ import FuturistNetwork from './futurist-network';
 import FutureLens from './future-lens';
 import FutureLab from './future-lab';
 import PersonalTimeline from './personal-timeline';
+import BoxboiStories from './boxboi-stories';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -47,9 +48,10 @@ export default function Home() {
           <div className="notes">
             <a className="note" href="https://futurelens.cloud/get-app" target="_blank" rel="noopener noreferrer"><span className="note-number">01</span><div><h3>Beyond the screen</h3><p>Bringing the same worlds into VR and location-based AR. Scan a place. Build inside it. Walk back into it.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
             <a className="note" href="https://github.com/pdxor/TreeXR" target="_blank" rel="noopener noreferrer"><span className="note-number">02</span><div><h3>Tree XR</h3><p>Wearable AR, natural environments, and community. A collaboration with Paige Dansinger and Marc Pettersen at the AWE 2026 Snap / Reality Hack.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
-            <a className="note" href="https://github.com/pdxor/green-timeline" target="_blank" rel="noopener noreferrer"><span className="note-number">03</span><div><h3>Boxboi</h3><p>A solarpunk story I’m bringing to life. Back to imagination, worldbuilding, and making something with a little heart.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
+            <a className="note" href="#boxboi-360"><span className="note-number">03</span><div><h3>Boxboi</h3><p>A solarpunk story I’m bringing to life. Meet Boxboi and friends in ten short 360° adventures through art, architecture, and imagination.</p></div><span className="note-arrow" aria-hidden="true">↓</span></a>
           </div>
         </section>
+        <BoxboiStories />
         <section id="future-lab-recap" className="section wrap recap-section" aria-labelledby="recap-title">
           <div className="recap-heading"><div><p className="eyebrow">Future Lab / The recap</p><h2 id="recap-title">Last time<br />we got together.</h2></div><p className="section-intro">A little of what happens when people, place, art, and technology meet. From our Future Lab and Accelerator gathering in the Catskills.</p></div>
           {/* oxlint-disable-next-line jsx-a11y/media-has-caption -- The official film has no published caption track; preserve the original media without invented captions. */}
