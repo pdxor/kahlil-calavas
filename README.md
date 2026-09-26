@@ -26,7 +26,7 @@ The Future Lens and Future Lab sections use the official project pages. The Octo
 
 ## Boxboi 360° stories
 
-The homepage’s `#boxboi-360` section presents ten 30-second films, with trip-hop music and sound effects and no narration. `app/boxboi-stories.tsx` embeds the public spherical playlist from [Cinemagraph Creator](https://equirectangular-cinemagraph-creator.netlify.app/360/). The original MP4s, posters, story descriptions, and player code live in the [creator repository](https://github.com/pdxor/equirectangular-cinemagraph-creator/tree/main/site/360), so there is one collection to maintain.
+The homepage’s `#boxboi-360` section presents nine 30-second films, with trip-hop music and sound effects and no narration. `app/boxboi-stories.tsx` embeds the public spherical playlist from [Cinemagraph Creator](https://equirectangular-cinemagraph-creator.netlify.app/360/). The original MP4s, posters, story descriptions, and player code live in the [creator repository](https://github.com/pdxor/equirectangular-cinemagraph-creator/tree/main/site/360), so there is one collection to maintain.
 
 The iframe loads lazily and never starts video until the visitor presses play or chooses a story. It supports drag/touch/keyboard look-around, seeking, sound, fullscreen, next-story playback, optional collection looping, share links, and original 360° MP4 downloads. Resize messages are accepted only from the known player origin and the actual iframe window. No API keys or accounts are needed. The creator’s Content Security Policy explicitly allows this portfolio to embed the player.
 
