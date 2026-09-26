@@ -3,7 +3,7 @@
   "headline": "Creative technologist · Spatial computing · Web development",
   "email": "kahlilcalavas@gmail.com",
   "phone": "860-834-4959",
-  "website": "https://kahlilcalavas.netlify.app",
+  "website": "https://kahlilcalavas.dev",
   "summary": "Creative technologist and CTO at TerraLux working across web platforms, digital twins, augmented reality, and immersive storytelling. Combines React, TypeScript, and Unity development with on-site capture, interface design, and a decade of professional web development. Builds tools and experiences that connect people, places, and ideas.",
   "experience": [
     {"company":"TerraLux / The Futurist Network","role":"Chief Technology Officer","dates":"Aug 2022 - Present","startDate":"2022-08","bullets":["Develop and maintain The Futurist Network with React, TypeScript, and Supabase: a digital twin, project management, and social platform for designing, building, and funding businesses.","Develop a Unity-based iOS platform for world-scale augmented reality, connected to the Futurist Toolkit and location datasets.","Create architectural visualizations, digital twins, and 3D captures; demonstrate spatial systems through mixed reality map tables and public showcases.","Support technology operations, fundraising presentations, and investment outreach."]},

@@ -39,7 +39,7 @@ def rect(c,x,y,w,h,color):
 
 def footer(c,n):
     c.setStrokeColor(HexColor('#404040'));c.line(34,37,578,37)
-    text(c,'KAHLIL CALAVAS / CODE, LAND & IMAGINATION',34,772,7,HexColor('#bbbbbb'))
+    text(c,'KAHLIL CALAVAS / KAHLILCALAVAS.DEV',34,772,7,HexColor('#bbbbbb'))
     text(c,f'0{n} / 02',540,772,7,HexColor('#bbbbbb'))
     c.linkURL(D['website'],(34,10,390,32),relative=0)
 
@@ -59,13 +59,17 @@ text(c,'the land, and imagination.',34,263,20)
 text(c,'CTO at TerraLux / Creator of The Spatial Network',34,310,10)
 y=365
 text(c,D['email']+'  /  '+D['phone'],34,y,9)
-text(c,'kahlilcalavas.netlify.app',34,y+18,9)
-c.linkURL('mailto:'+D['email'],(34,H-y-3,255,H-y+12),relative=0)
+text(c,D['website'].removeprefix('https://').rstrip('/'),34,y+18,9)
+email_width = pdfmetrics.stringWidth(D['email'], 'Manrope', 9)
+phone_x = 34 + pdfmetrics.stringWidth(D['email']+'  /  ', 'Manrope', 9)
+c.linkURL('mailto:'+D['email'],(34,H-y-3,34+email_width,H-y+12),relative=0)
+c.linkURL('tel:+18608344959',(phone_x,H-y-3,phone_x+pdfmetrics.stringWidth(D['phone'],'Manrope',9),H-y+12),relative=0)
 c.linkURL(D['website'],(34,H-y-22,250,H-y-8),relative=0)
 label(c,'01 / Between worlds',34,420)
 para(c,D['summary'],34,436,544,10.5,HexColor('#dedede'))
 label(c,'02 / Current work',34,525)
 text(c,'TerraLux / The Futurist Network',34,548,17,font='ManropeBold')
+c.linkURL('https://thefuturist.network',(34,H-554,365,H-530),relative=0)
 text(c,'Chief Technology Officer  /  Aug 2022 - Present',34,568,9,HexColor('#bbbbbb'))
 para(c,'Build React, TypeScript, and Supabase platforms; develop Unity-based iOS AR; create digital twins and architectural visualizations. Connect technical delivery with public demonstrations, fundraising presentations, and day-to-day technology operations.',34,580,544,10)
 label(c,'03 / Selected projects',34,661)
@@ -74,7 +78,11 @@ for x,title,body,url in [
     (222,'FUTURE LAB.','Gather. Innovate. Build.\nPeople, place, and technology.','https://thefuturist.network/futurelab'),
     (410,'TREE XR / BOXBOI.','Wearable AR, storytelling,\nand imagined worlds.','https://github.com/pdxor/TreeXR')]:
     text(c,title,x,686,11,font='ManropeBold');para(c,body.replace('\n',' '),x,696,166,9,HexColor('#bbbbbb'))
-    c.linkURL(url,(x,52,x+168,125),relative=0)
+    if x == 410:
+        c.linkURL(url,(x,106,x+50,122),relative=0)
+        c.linkURL('https://github.com/pdxor/green-timeline',(x+61,106,x+168,122),relative=0)
+    else:
+        c.linkURL(url,(x,52,x+168,125),relative=0)
 footer(c,1);c.showPage()
 rect(c,0,0,W,H,black)
 photo(c,'/tours/bridge-between-the-worlds.jpg',0,0,W,160)

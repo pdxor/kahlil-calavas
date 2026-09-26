@@ -1,7 +1,7 @@
 Kahlil Calavas
 Creative technologist · Spatial computing · Web development
 kahlilcalavas@gmail.com | 860-834-4959
-https://kahlilcalavas.netlify.app
+https://kahlilcalavas.dev
 
 PROFESSIONAL SUMMARY
 Creative technologist and CTO at TerraLux working across web platforms, digital twins, augmented reality, and immersive storytelling. Combines React, TypeScript, and Unity development with on-site capture, interface design, and a decade of professional web development. Builds tools and experiences that connect people, places, and ideas.

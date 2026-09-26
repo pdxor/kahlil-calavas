@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Kahlil Calavas | Resume',
   description: 'Creative technology, spatial computing, and web development. Experience, projects, and downloadable visual and ATS resumes.',
   alternates: { canonical: '/resume' },
-  openGraph: { title: 'Kahlil Calavas | Resume', description: resume.headline, url: 'https://kahlilcalavas.netlify.app/resume', images: ['/images/future-lens-scan-capture.png'] },
+  openGraph: { title: 'Kahlil Calavas | Resume', description: resume.headline, url: 'https://kahlilcalavas.dev/resume', images: ['/images/future-lens-scan-capture.png'] },
 };
 
 export default function Resume() {
@@ -29,7 +29,7 @@ export default function Resume() {
         <a href="/resumes/resume.json">Structured data <span>JSON ↓</span></a>
       </div>
       <article className="resume-content">
-        <section><p className="eyebrow">01 / Profile</p><h2>Between worlds.</h2><p className="resume-summary">{resume.summary}</p><address><a href={`mailto:${resume.email}`}>{resume.email}</a><a href={`tel:+1${resume.phone.replace(/-/g, '')}`}>{resume.phone}</a><a href={resume.website}>kahlilcalavas.netlify.app</a></address></section>
+        <section><p className="eyebrow">01 / Profile</p><h2>Between worlds.</h2><p className="resume-summary">{resume.summary}</p><address><a href={`mailto:${resume.email}`}>{resume.email}</a><a href={`tel:+1${resume.phone.replace(/-/g, '')}`}>{resume.phone}</a><a href={resume.website}>kahlilcalavas.dev</a></address></section>
         <section><p className="eyebrow">02 / Professional experience</p><h2>Built over time.</h2>{resume.experience.map(job => <section className="resume-job" key={job.company}><div><h3>{job.company}</h3><p className="resume-role">{job.role}</p><p className="resume-dates">{job.dates}{'location' in job ? ` · ${job.location}` : ''}</p></div><ul>{job.bullets.map(bullet => <li key={bullet}>{bullet}</li>)}</ul></section>)}</section>
         <section><p className="eyebrow">03 / Selected projects</p><h2>Out in the world.</h2><div className="resume-projects">{resume.projects.map(project => <a key={project.name} href={project.url}><Image src={project.image} alt={project.name === 'Future Lens' ? 'Kahlil capturing IX Art Park with a pole-mounted camera' : project.name === 'Future Lab' ? 'A Future Lab gathering' : 'Boxboi characters in a futuristic city'} width={600} height={360} unoptimized /><h3>{project.name} ↗</h3><p>{project.description}</p></a>)}</div></section>
         <section><p className="eyebrow">04 / Technical skills</p><h2>Tools of the trade.</h2><div className="resume-skills">{resume.skills.map(group => <div key={group.name}><h3>{group.name}</h3><p>{group.items.join(' · ')}</p></div>)}</div></section>
