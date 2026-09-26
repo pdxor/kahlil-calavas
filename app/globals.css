@@ -71,6 +71,15 @@ h2 { font-size: clamp(2rem,4.6vw,4.5rem); line-height: 1.08; letter-spacing: -.0
 .recap-video:focus-visible { outline: 2px solid #fff; outline-offset: 7px; }
 .recap-section { padding-bottom: 0; }
 .technology-section { padding-bottom: 0; overflow: hidden; }
+.current-role-section { padding-bottom: 0; }
+.current-role-card { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; padding: clamp(28px, 5vw, 72px); border: 1px solid #363b35; background: linear-gradient(120deg, #19211a, #0d100e 70%); }
+.current-role-heading .eyebrow { color: #b0c5aa; }
+.current-role-heading h2 { font-size: clamp(2.5rem, 5vw, 5rem); }
+.current-role-copy { align-self: center; }
+.current-role-copy p { color: #bbb; font-size: 1.05rem; line-height: 1.75; margin-bottom: 20px; max-width: 36rem; }
+.current-role-copy p:first-child { color: #f0f0ec; }
+.current-role-copy .text-link { margin-top: 8px; }
+@media (max-width:760px) { .current-role-card { grid-template-columns: 1fr; gap: 28px; } .current-role-copy p { font-size: 1rem; } }
 .technology-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 42px; }
 .technology-heading h2 { font-size: clamp(1.5rem, 3vw, 2.75rem); }
 .technology-heading .slider-controls { flex-shrink: 0; }

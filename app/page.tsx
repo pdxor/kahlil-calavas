@@ -57,6 +57,20 @@ export default function Home() {
           <a className="text-link" href="https://thefuturist.network/futurelab#accelerator-future-lab-film" target="_blank" rel="noopener noreferrer">More from Future Lab <span aria-hidden="true">↗</span></a>
         </section>
         <TechnologySlider />
+        <section id="current-role" className="section wrap current-role-section" aria-labelledby="current-role-title">
+          <p className="eyebrow">My current role</p>
+          <article className="current-role-card">
+            <div className="current-role-heading">
+              <p className="eyebrow">Technology / Regenerative futures</p>
+              <h2 id="current-role-title">CTO of<br />Terralux.</h2>
+            </div>
+            <div className="current-role-copy">
+              <p>I develop tools for mapping, 3D scanning, and immersive media—connecting AI, AR, and geospatial visualization with regenerative projects and storytelling.</p>
+              <p>Terralux brings innovators, creators, and communities together around technology, design, and more regenerative ways of living.</p>
+              <a className="text-link" href="https://terra-lux.org/" target="_blank" rel="noopener noreferrer">Explore Terralux <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </section>
         <footer id="contact" className="section wrap contact">
           <p className="eyebrow">Keep in touch</p><h2><a href="mailto:kahlilcalavas@gmail.com">Say hello. <span aria-hidden="true">↗</span></a></h2>
           <div className="footer-bottom"><p>© 2026 Kahlil Calavas</p><nav aria-label="Social links"><a href="https://www.linkedin.com/in/kahlil-c-8839b5192/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.facebook.com/kahlil.calavas" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://github.com/pdxor" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav><a className="back-top" href="#main">Back to the top ↑</a></div>
