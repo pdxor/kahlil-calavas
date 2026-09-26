@@ -24,7 +24,7 @@ export default function BoxboiStories() {
         <div><p className="eyebrow">Boxboi / Ten stories in 360°</p><h2 id="boxboi-title">Small wonders.<br />Whole worlds.</h2></div>
         <div className={styles.copy}><p>A little curiosity goes a long way. Follow Boxboi and friends through art-filled rooms, Earthships, and imagined worlds in ten short, immersive stories.</p><p>Thirty seconds each. Trip-hop and sound effects. Look around and find your own point of view.</p><a className="text-link" href={`${playerOrigin}/360/`} target="_blank" rel="noopener noreferrer">Open the full 360° playlist <span aria-hidden="true">↗</span></a></div>
       </div>
-      <iframe ref={frame} className={styles.player} src={`${playerOrigin}/360/?embed=1`} title="Boxboi interactive 360 degree video playlist — ten stories" loading="lazy" allow="autoplay; fullscreen" allowFullScreen style={{ height }} />
+      <iframe ref={frame} className={styles.player} src={`${playerOrigin}/360/?embed=1`} title="Boxboi interactive 360 degree video playlist — ten stories" loading="lazy" allow="autoplay; fullscreen; clipboard-write" allowFullScreen style={{ height }} />
       <div className={styles.caption}><p>Drag or swipe to look around. Music + sound effects, without narration.</p><a href={playerOrigin} target="_blank" rel="noopener noreferrer">Made with my Cinemagraph Creator ↗</a></div>
     </section>
   );
