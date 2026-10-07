@@ -10,7 +10,7 @@ The site uses React, Vinext, and the existing Shadcn/Embla carousel. Navigation 
 
 ## Content
 
-`app/page.tsx` contains the biography and current projects. `app/tours.ts` contains the portfolio collection and original tour links. Edit the collection as new tours are published. The initial collection was checked against the live FutureLens.cloud site on September 24, 2026.
+`app/page.tsx` contains the biography and current projects. `app/tours.ts` supplies both the carousel and the complete, always-visible tour directory. The collection includes all 14 public place-based Netlify digital twins after excluding Metta Earth at Kahlil’s request, checked October 7, 2026. Edit this one collection as new tours are published. See `docs/digital-twin-sources.md` for the inventory and image sources.
 
 The biography draws on Kahlil’s latest available résumé (Google Docs, modified September 3, 2026), his LinkedIn profile and recent public posts, and his public Facebook tour announcement. Employment start dates differ across sources, so the site deliberately avoids asserting those dates. No contact lists, analytics, or full résumé are included.
 
@@ -20,11 +20,15 @@ Public source profiles:
 - https://futurelens.cloud/
 - https://github.com/pdxor
 
-The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliable local hosting. The Netlify site is intended for `https://kahlilcalavas.netlify.app`.
+The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliable local hosting. The production Netlify site uses `https://kahlilcalavas.dev`.
 
 The Future Lens and Future Lab sections use the official project pages. The October 3, 2026 Earth Tech gathering at Forest City Farms (3–11 PM Eastern) and event link were verified at https://thefuturist.network/futurelab on September 24, 2026. The recap uses the same public Future Lab / Accelerator film featured on The Futurist Network homepage and Future Lab page; its poster is hosted locally. The Future Lens illustration is an actual world-viewer capture from its public homepage.
 
-## Boxboi 360° stories
+## Boxboi / The Green Timeline
+
+`app/boxboi-journey.tsx` introduces the story at `#boxboi`: Crumble City, the portal to present-day Big Hollow Greene, and the regenerative ideas that shape a different future. It teases the story website in development and links to the public [Green Timeline repository](https://github.com/pdxor/green-timeline), plus the existing [playable pilot](https://green-timeline-boxboy.netlify.app/). The film still reuses the existing `/timeline/boxboi-pilot.webp` asset. The nine 360° short stories remain directly below this section.
+
+### Boxboi 360° stories
 
 The homepage’s `#boxboi-360` section presents nine 30-second films, with trip-hop music and sound effects and no narration. `app/boxboi-stories.tsx` embeds the public spherical playlist from [Cinemagraph Creator](https://equirectangular-cinemagraph-creator.netlify.app/360/). The original MP4s, posters, story descriptions, and player code live in the [creator repository](https://github.com/pdxor/equirectangular-cinemagraph-creator/tree/main/site/360), so there is one collection to maintain.
 

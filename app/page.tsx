@@ -1,10 +1,13 @@
 import TourSlider from './tour-slider';
+import TourDirectory from './tour-directory';
 import TechnologySlider from './technology-slider';
 import FuturistNetwork from './futurist-network';
 import FutureLens from './future-lens';
 import FutureLab from './future-lab';
 import PersonalTimeline from './personal-timeline';
 import BoxboiStories from './boxboi-stories';
+import BoxboiJourney from './boxboi-journey';
+import { tours } from './tours';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -39,8 +42,9 @@ export default function Home() {
         <FutureLens />
         <FuturistNetwork />
         <section id="work" className="work-section" aria-labelledby="work-title">
-          <div className="section wrap work-heading"><div><p className="eyebrow">Recent digital twins / Future Lens</p><h2 id="work-title">Places you<br />can step into.</h2></div><div><p className="section-intro">A few places I’ve been turning into worlds.<br />Take your time. Have a look around.</p><a href="https://futurelens.cloud/#tours" target="_blank" rel="noopener noreferrer" className="text-link">More at Future Lens <span aria-hidden="true">↗</span></a></div></div>
+          <div className="section wrap work-heading"><div><p className="eyebrow">Digital twins / Future Lens</p><h2 id="work-title">Places you<br />can step into.</h2></div><div><p className="section-intro">{tours.length} worlds to explore, from working farms and quiet retreats to city streets and imagined futures. Take your time. Have a look around.</p><a href="#tour-directory-title" className="text-link">Browse every digital twin <span aria-hidden="true">↓</span></a></div></div>
           <TourSlider />
+          <TourDirectory />
         </section>
         <FutureLab />
         <section className="wrap lately-section" aria-labelledby="lately-title">
@@ -48,9 +52,10 @@ export default function Home() {
           <div className="notes">
             <a className="note" href="https://futurelens.cloud/get-app" target="_blank" rel="noopener noreferrer"><span className="note-number">01</span><div><h3>Beyond the screen</h3><p>Bringing the same worlds into VR and location-based AR. Scan a place. Build inside it. Walk back into it.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
             <a className="note" href="https://github.com/pdxor/TreeXR" target="_blank" rel="noopener noreferrer"><span className="note-number">02</span><div><h3>Tree XR</h3><p>Wearable AR, natural environments, and community. A collaboration with Paige Dansinger and Marc Pettersen at the AWE 2026 Snap / Reality Hack.</p></div><span className="note-arrow" aria-hidden="true">↗</span></a>
-            <a className="note" href="#boxboi-360"><span className="note-number">03</span><div><h3>Boxboi</h3><p>A solarpunk story I’m bringing to life. Meet Boxboi and friends in nine short 360° adventures through art, architecture, and imagination.</p></div><span className="note-arrow" aria-hidden="true">↓</span></a>
+            <a className="note" href="#boxboi"><span className="note-number">03</span><div><h3>Boxboi / The Green Timeline</h3><p>A time-travel story about the future we can still make. Follow Boxboi from Crumble City into real regenerative worlds, and get a first look at the new story website.</p></div><span className="note-arrow" aria-hidden="true">↓</span></a>
           </div>
         </section>
+        <BoxboiJourney />
         <BoxboiStories />
         <section id="future-lab-recap" className="section wrap recap-section" aria-labelledby="recap-title">
           <div className="recap-heading"><div><p className="eyebrow">Future Lab / The recap</p><h2 id="recap-title">Last time<br />we got together.</h2></div><p className="section-intro">A little of what happens when people, place, art, and technology meet. From our Future Lab and Accelerator gathering in the Catskills.</p></div>

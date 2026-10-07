@@ -23,7 +23,7 @@ export default function TourSlider() {
   }, [api]);
 
   return (
-    <Carousel setApi={setApi} opts={{ align: 'start', loop: true }} className="world-slider" aria-label="Recent digital twins from Future Lens" tabIndex={0}>
+    <Carousel setApi={setApi} opts={{ align: 'start', loop: true }} className="world-slider" aria-label="Digital twins from Future Lens" tabIndex={0}>
       <CarouselContent className="world-track">
         {tours.map((tour, index) => (
           <CarouselItem className="world-slide" key={tour.slug} aria-label={`${index + 1} of ${tours.length}: ${tour.name}`}>
