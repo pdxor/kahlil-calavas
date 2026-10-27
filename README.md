@@ -22,7 +22,7 @@ Public source profiles:
 
 The portrait is Kahlil’s actual LinkedIn profile image, downloaded for reliable local hosting. The production Netlify site uses `https://kahlilcalavas.dev`.
 
-The Future Lens and Future Lab sections use the official project pages. The October 3, 2026 Earth Tech gathering at Forest City Farms (3–11 PM Eastern) and event link were verified at https://thefuturist.network/futurelab on September 24, 2026. The recap uses the same public Future Lab / Accelerator film featured on The Futurist Network homepage and Future Lab page; its poster is hosted locally. The Future Lens illustration is an actual world-viewer capture from its public homepage.
+The Future Lab section links to https://futurelab-os.netlify.app and describes the three-hour, $300 workshop (location TBA): one hour of research, one hour building a playbook and agentic pipeline, and one hour of guided deployment. The recap retains the public Future Lab / Accelerator film and local poster. The broader Futurist Network links remain separate. The Future Lens illustration is an actual world-viewer capture from its public homepage.
 
 ## Boxboi / The Green Timeline
 

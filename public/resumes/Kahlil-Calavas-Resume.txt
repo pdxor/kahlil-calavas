@@ -43,7 +43,7 @@ SELECTED PROJECTS
 Future Lens | https://futurelens.cloud
 Digital twins, 360-degree tours, and location-based AR that connect capture, spatial editing, and real-world experiences. Portfolio includes IX Art Park, Big Hollow Greene, and Alan Day Community Garden.
 
-Future Lab | https://thefuturist.network/futurelab
+Future Lab | https://futurelab-os.netlify.app
 A setting for builders, artists, and technologists to share ideas, demonstrate immersive tools, and develop projects through gatherings and working sessions.
 
 Tree XR & Boxboi | https://github.com/pdxor/TreeXR

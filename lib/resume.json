@@ -15,7 +15,7 @@
   ],
   "projects": [
     {"name":"Future Lens","description":"Digital twins, 360-degree tours, and location-based AR that connect capture, spatial editing, and real-world experiences. Portfolio includes IX Art Park, Big Hollow Greene, and Alan Day Community Garden.","url":"https://futurelens.cloud","image":"/images/future-lens-scan-capture.png"},
-    {"name":"Future Lab","description":"A setting for builders, artists, and technologists to share ideas, demonstrate immersive tools, and develop projects through gatherings and working sessions.","url":"https://thefuturist.network/futurelab","image":"/images/future-lab-gather.jpg"},
+    {"name":"Future Lab","description":"A setting for builders, artists, and technologists to share ideas, demonstrate immersive tools, and develop projects through gatherings and working sessions.","url":"https://futurelab-os.netlify.app","image":"/images/future-lab-gather.jpg"},
     {"name":"Tree XR & Boxboi","description":"Wearable AR collaboration with Paige Dansinger and Marc Pettersen at the AWE 2026 Snap / Reality Hack; solarpunk storytelling and virtual worldbuilding through Boxboi.","url":"https://github.com/pdxor/TreeXR","image":"/timeline/boxboi-pilot.webp"}
   ],
   "skills": [
