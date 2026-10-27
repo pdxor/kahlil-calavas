@@ -19,15 +19,15 @@ export default function FutureLab() {
           <div className={`${shared.copy} ${styles.copy}`}>
             <p className={shared.headline}>Good ideas need somewhere to land.</p>
             <p>Future Lab brings builders, artists, technologists, and people working with the land together to try things, share what they know, and make something real.</p>
-            <p>Conversations become experiments. Experiments become prototypes. A field lab for people shaping what comes next, through emerging tools, creative practice, and shared work.</p>
-            <a className={shared.cta} href="https://thefuturist.network/futurelab" target="_blank" rel="noopener noreferrer">Inside Future Lab <span aria-hidden="true">↗</span></a>
+            <p>A three-hour workshop: one hour of research, one hour building a playbook and agentic pipeline, and one hour of guided deployment.</p>
+            <a className={shared.cta} href="https://futurelab-os.netlify.app" target="_blank" rel="noopener noreferrer">Inside Future Lab <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </VideoIntro>
       <div className={`wrap ${styles.process} ${lab.photos}`}>
-        {moments.map(moment => <a key={moment.title} className={styles.step} href="https://thefuturist.network/futurelab" target="_blank" rel="noopener noreferrer"><Image src={moment.image} alt={moment.alt} width={1000} height={750} unoptimized loading="lazy" /><h3>{moment.title}<span className={styles.arrow} aria-hidden="true">↗</span></h3></a>)}
+        {moments.map(moment => <a key={moment.title} className={styles.step} href="https://futurelab-os.netlify.app" target="_blank" rel="noopener noreferrer"><Image src={moment.image} alt={moment.alt} width={1000} height={750} unoptimized loading="lazy" /><h3>{moment.title}<span className={styles.arrow} aria-hidden="true">↗</span></h3></a>)}
       </div>
-      <div className={`wrap ${lab.next}`}><p className="eyebrow">The next gathering</p><p>Date, time, and location coming soon.</p><a className="text-link" href="https://thefuturist.network/futurelab" target="_blank" rel="noopener noreferrer">Follow Future Lab <span aria-hidden="true">↗</span></a></div>
+      <div className={`wrap ${lab.next}`}><p className="eyebrow">The workshop</p><p>Three hours · $300 · Location TBA.</p><a className="text-link" href="https://futurelab-os.netlify.app" target="_blank" rel="noopener noreferrer">Explore Future Lab <span aria-hidden="true">↗</span></a></div>
     </section>
   );
 }

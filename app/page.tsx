@@ -60,8 +60,8 @@ export default function Home() {
         <section id="future-lab-recap" className="section wrap recap-section" aria-labelledby="recap-title">
           <div className="recap-heading"><div><p className="eyebrow">Future Lab / The recap</p><h2 id="recap-title">Last time<br />we got together.</h2></div><p className="section-intro">A little of what happens when people, place, art, and technology meet. From our Future Lab and Accelerator gathering in the Catskills.</p></div>
           {/* oxlint-disable-next-line jsx-a11y/media-has-caption -- The official film has no published caption track; preserve the original media without invented captions. */}
-          <video className="recap-video" controls playsInline preload="none" poster="/images/future-lab-recap.jpg" aria-label="Future Lab and Accelerator gathering recap"><source src="https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/videos/accelerator-and-future-lab.mp4" type="video/mp4" />Watch the Future Lab recap at The Futurist Network.</video>
-          <a className="text-link" href="https://thefuturist.network/futurelab#accelerator-future-lab-film" target="_blank" rel="noopener noreferrer">More from Future Lab <span aria-hidden="true">↗</span></a>
+          <video className="recap-video" controls playsInline preload="none" poster="/images/future-lab-recap.jpg" aria-label="Future Lab and Accelerator gathering recap"><source src="https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/videos/accelerator-and-future-lab.mp4" type="video/mp4" />Watch the Future Lab recap.</video>
+          <a className="text-link" href="https://futurelab-os.netlify.app" target="_blank" rel="noopener noreferrer">More from Future Lab <span aria-hidden="true">↗</span></a>
         </section>
         <TechnologySlider />
         <section id="current-role" className="section wrap current-role-section" aria-labelledby="current-role-title">

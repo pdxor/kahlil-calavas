@@ -75,7 +75,7 @@ para(c,'Build React, TypeScript, and Supabase platforms; develop Unity-based iOS
 label(c,'03 / Selected projects',34,661)
 for x,title,body,url in [
     (34,'FUTURE LENS.','Scan. Remix. Publish.\nDigital twins, tours, and AR.','https://futurelens.cloud'),
-    (222,'FUTURE LAB.','Gather. Innovate. Build.\nPeople, place, and technology.','https://thefuturist.network/futurelab'),
+    (222,'FUTURE LAB.','Gather. Innovate. Build.\nPeople, place, and technology.','https://futurelab-os.netlify.app'),
     (410,'TREE XR / BOXBOI.','Wearable AR, storytelling,\nand imagined worlds.','https://github.com/pdxor/TreeXR')]:
     text(c,title,x,686,11,font='ManropeBold');para(c,body.replace('\n',' '),x,696,166,9,HexColor('#bbbbbb'))
     if x == 410:
