@@ -14,7 +14,7 @@ export type TimelineMoment = {
   alt: string;
   companion?: { image: string; alt: string };
   portrait?: boolean;
-  source: string;
+  source?: string;
   sourceLabel?: string;
   relatedLinks?: readonly { label: string; url: string }[];
   credit: string;
@@ -139,13 +139,7 @@ export const timelineMoments: readonly TimelineMoment[] = [
     "image": "/timeline/biotekt-interior.webp",
     "alt": "An empty Biotekt interior with modular vaulted arches, an arched doorway, and a window opening onto trees.",
     "source": "https://www.facebook.com/reel/728036046465694/",
-    "credit": "Biotekt build footage · Interior still at 00:26 (cropped)",
-    "relatedLinks": [
-      {
-        "label": "View image source",
-        "url": "https://thefuturist.network/public/story/0e68516c-c98f-4a62-8289-c0d772d25e49"
-      }
-    ]
+    "credit": "Biotekt build footage · Interior still at 00:26 (cropped)"
   },
   {
     "id": "reality-hack-2026",
@@ -183,16 +177,9 @@ export const timelineMoments: readonly TimelineMoment[] = [
     ],
     "image": "/timeline/ecodome.webp",
     "alt": "An architectural rendering of EcoDome, with a central dome above a planted ring of vaulted rooms and arched entrances.",
-    "source": "https://thefuturist.network/public/models/654c2492-5f3b-4567-bf57-c4f5299fc7c1",
     "credit": "EcoDome architectural visualization · The Futurist Network catalog",
     "dateLabel": "Model catalog date",
-    "sourceLabel": "Explore the EcoDome model",
-    "relatedLinks": [
-      {
-        "label": "View structural model",
-        "url": "https://thefuturist.network/public/models/ce239108-8626-45b2-9a59-fdb3f288e268"
-      }
-    ]
+    "sourceLabel": "Explore the EcoDome model"
   },
   {
     "id": "a-digital-twin-with-a-purpose",
@@ -234,16 +221,9 @@ export const timelineMoments: readonly TimelineMoment[] = [
     ],
     "image": "/timeline/boxboi-pilot.webp",
     "alt": "Two box-headed robot characters in a detailed futuristic city, from the Boxboi official pilot.",
-    "source": "https://thefuturist.network/public/story/0dc3d677-38d1-41d6-8e5d-dd27c0156530",
     "credit": "Boxboi — The Green Timeline, official pilot · Animation still at 00:10",
     "dateLabel": "Story publication",
-    "sourceLabel": "Watch the episode",
-    "relatedLinks": [
-      {
-        "label": "Explore Boxboi chronicles",
-        "url": "https://thefuturist.network/projects/public/b8cd8de9-9a03-4c9c-acc8-d9356b3d0bac"
-      }
-    ]
+    "sourceLabel": "Watch the episode"
   },
   {
     "id": "future-lab",

@@ -190,7 +190,7 @@ export default function PersonalTimeline() {
               <p className={styles.description}>{selected.description}</p>
               <div className={styles.tags}>{selected.themes.map(item => <span key={item}>{item}</span>)}</div>
               <div className={styles.momentLinks}>
-                <a href={selected.source} target="_blank" rel="noopener noreferrer">{selected.sourceLabel ?? 'Watch original video'}<ArrowUpRight size={16} aria-hidden="true" /></a>
+                {selected.source && <a href={selected.source} target="_blank" rel="noopener noreferrer">{selected.sourceLabel ?? 'Watch original video'}<ArrowUpRight size={16} aria-hidden="true" /></a>}
                 {selected.relatedLinks?.map(link => <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer">{link.label}<ArrowUpRight size={16} aria-hidden="true" /></a>)}
                 <button type="button" onClick={copyMomentLink} aria-label="Copy link to this moment">{copyStatus === 'copied' ? <Check size={15} aria-hidden="true" /> : <LinkIcon size={15} aria-hidden="true" />}<span aria-live="polite">{copyStatus === 'copied' ? 'Link copied' : copyStatus === 'error' ? 'Use the address bar' : 'Copy link'}</span></button>
               </div>

@@ -1,7 +1,6 @@
 import TourSlider from './tour-slider';
 import TourDirectory from './tour-directory';
 import TechnologySlider from './technology-slider';
-import FuturistNetwork from './futurist-network';
 import FutureLens from './future-lens';
 import FutureLab from './future-lab';
 import PersonalTimeline from './personal-timeline';
@@ -40,7 +39,6 @@ export default function Home() {
         </section>
         <PersonalTimeline />
         <FutureLens />
-        <FuturistNetwork />
         <section id="work" className="work-section" aria-labelledby="work-title">
           <div className="section wrap work-heading"><div><p className="eyebrow">Digital twins / Future Lens</p><h2 id="work-title">Places you<br />can step into.</h2></div><div><p className="section-intro">{tours.length} worlds to explore, from working farms and quiet retreats to city streets and imagined futures. Take your time. Have a look around.</p><a href="#tour-directory-title" className="text-link">Browse every digital twin <span aria-hidden="true">↓</span></a></div></div>
           <TourSlider />

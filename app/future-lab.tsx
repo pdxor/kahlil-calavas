@@ -13,7 +13,7 @@ export default function FutureLab() {
   return (
     <section id="future-lab" className={styles.section} aria-labelledby="future-lab-title">
       <VideoIntro title="Future Lab" src="https://mhmtbsugxmiebanqeifx.supabase.co/storage/v1/object/public/videos/accelerator-and-future-lab.mp4" poster="/images/future-lab-recap.jpg">
-        <div className={shared.kicker}><p className="eyebrow">Out in the world</p><span>03 / Selected work</span></div>
+        <div className={shared.kicker}><p className="eyebrow">Out in the world</p><span>02 / Selected work</span></div>
         <div className={shared.heading}>
           <h2 id="future-lab-title">Future Lab.</h2>
           <div className={`${shared.copy} ${styles.copy}`}>
